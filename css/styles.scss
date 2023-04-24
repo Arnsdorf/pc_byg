@@ -4,6 +4,8 @@
 
 body {
 	margin: 0;
+	background-color: #131349;
+	font-family: Poppins;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,10 +26,38 @@ li {
 p {
 	margin: 0;
 	padding: 0;
+	font-family: Poppins;
 }
 
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.bg-question{
+	background-color: #282b2d;
+}
+
+.bg-outer_question{
+	background-color: #1a1e21;
+}
+
+.p-max{
+	max-width: 800px;
+}
+
+.image{
+	width: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	cursor: pointer;
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+	border: none;
+}
+.image:hover{
+	transform: scale(1.04);
+	z-index: 100;
+	border: none;
 }
