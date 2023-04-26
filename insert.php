@@ -2,26 +2,33 @@
 
 require "settings/init.php";
 
-if(!empty($_POST["data"])){
+if(!empty($_POST["data"])) {
+    // Gem POST data i variabel
     $data = $_POST["data"];
-    $file = $_FILES;
 
-    if (!empty($file["build_img"]["tmp_name"])){
+    // Gem uploadet fil i variabel, eller sæt den til null hvis der ikke blev uploadet en fil
+    $file = $_FILES;
+    $buildImg = (!empty($file["build_img"]["tmp_name"])) ? $file["build_img"]["name"] : null;
+
+    // Hvis der blev uploadet en fil, så gem den i "uploads" mappen på serveren
+    if ($buildImg !== null) {
         move_uploaded_file($file["build_img"]["tmp_name"], "uploads/" . basename($file["build_img"]["name"]));
     }
 
+    // Opret SQL queries
+    $sql1 = "INSERT INTO builds (build_name, build_class, build_img) VALUES (:build_name, :build_class, :build_img)";
+    $sql2 = "INSERT INTO builds_connect_components (build_id, component_id_1, component_id_2, component_id_3, component_id_4, component_id_5, component_id_6) VALUES (:build_id, :component_id_1, :component_id_2, :component_id_3, :component_id_4, :component_id_5, :component_id_6)";
+    $sql3 = "INSERT INTO components (component_name, ram_capacity, price, typeId, storage_capacity, category) VALUES ( :component_name, :ram_capacity, :price, :typeId, :storage_capacity, :category)";
+    $sql4 = "INSERT INTO type (type_name) VALUES ( :type_name)";
 
-
-
-
-    $sql = "INSERT INTO builds (build_name, build_class, build_img, build_id) VALUES (:build_name, :build_class, :build_img, :build_id)";
-    $sql = "INSERT INTO builds_connect_components (build_id, component_id_1, component_id_2, component_id_3, component_id_4, component_id_5, component_id_6) VALUES (:build_id, :component_id_1, :component_id_2, :component_id_3, :component_id_4, :component_id_5, :component_id_6)";
-    $sql = "INSERT INTO components (component_name, ram_capacity, price, typeId, storage_capacity, category) VALUES ( :component_name, :ram_capacity, :price, :typeId, :storage_capacity, :category)";
-    $sql = "INSERT INTO type (type_name) VALUES ( :type_name)";
-    $bind = [
+    // Binder værdier til placeholders i queries
+    $bind1 = [
         ":build_name" => $data["build_name"],
         ":build_class" => $data["build_class"],
-        ":build_img" => (!empty($file["build_img"]["tmp_name"])) ? $file["build_img"]["name"] : NULL,
+        ":build_img" => $buildImg
+    ];
+
+    $bind2 = [
         ":build_id" => $data["build_id"],
         ":component_id_1" => $data["component_id_1"],
         ":component_id_2" => $data["component_id_2"],
@@ -29,20 +36,32 @@ if(!empty($_POST["data"])){
         ":component_id_4" => $data["component_id_4"],
         ":component_id_5" => $data["component_id_5"],
         ":component_id_6" => $data["component_id_6"],
+    ];
+
+    $bind3 = [
         ":component_name" => $data["component_name"],
         ":ram_capacity" => $data["ram_capacity"],
         ":price" => $data["price"],
         ":typeId" => $data["typeId"],
         ":storage_capacity" => $data["storage_capacity"],
+        ":category" => $data["category"],
+    ];
+
+    $bind4 = [
         ":type_name" => $data["type_name"],
-        ":category" => $data["category"]];
+    ];
 
-    $db->sql($sql, $bind, false);
+    // Udfør SQL queries
+    $db->sql($sql1, $bind1, false);
+    $db->sql($sql2, $bind2, false);
+    $db->sql($sql3, $bind3, false);
+    $db->sql($sql4, $bind4, false);
 
 
+    // Vis besked om at data er gemt i databasen, samt en knap til at gå tilbage
     echo "<body style='font-size: 2rem; background-color: #353758;'></body> 
-        <h1 style='color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Tak fordi du valgte Find Graphics</h1> 
-        <a style='text-decoration: underline; color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; font-weight: bold;' href='index.html'>Gå tilbage</a>
+        <h1 style='color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Svar er indsat i databasen✅</h1> 
+        <a style='text-decoration: underline; color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; font-weight: bold;' href='insert.php'>Gå tilbage</a>
         ";
 
     exit;
@@ -70,7 +89,7 @@ if(!empty($_POST["data"])){
 
 <body>
 <!-- Indtastning af data -->
-<form method="post" action="insert.php"enctype="multipart/form-data">
+<form method="post" action="insert.php" enctype="multipart/form-data">
     <div style="font-size: .9rem;" class="row text-white m-0 d-flex d-flex justify-content-center p-0">
         <!-- builds -->
         <div class="pt-5">
@@ -157,7 +176,7 @@ if(!empty($_POST["data"])){
         <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="component_name">component_name</label>
-                <input class="form-control shadow" type="number" name="data[component_name]" id="component_name" placeholder="Indtast component_name" value="">
+                <input class="form-control shadow" type="text" name="data[component_name]" id="component_name" placeholder="Indtast component_name" value="">
             </div>
         </div>
 
@@ -178,21 +197,21 @@ if(!empty($_POST["data"])){
         <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="category">category</label>
-                <input class="form-control shadow" type="number" name="data[category]" id="category" placeholder="Indtast category" value="">
+                <input class="form-control shadow" type="text" name="data[category]" id="category" placeholder="Indtast category" value="">
             </div>
         </div>
 
         <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="ram_capacity">ram_capacity</label>
-                <input class="form-control shadow" type="number" name="data[ram_capacity]" id="ram_capacity" placeholder="Indtast ram_capacity" value="">
+                <input class="form-control shadow" type="text" name="data[ram_capacity]" id="ram_capacity" placeholder="Indtast ram_capacity" value="">
             </div>
         </div>
 
         <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="storage_capacity">storage_capacity</label>
-                <input class="form-control shadow" type="number" name="data[storage_capacity]" id="storage_capacity" placeholder="Indtast storage_capacity" value="">
+                <input class="form-control shadow" type="text" name="data[storage_capacity]" id="storage_capacity" placeholder="Indtast storage_capacity" value="">
             </div>
         </div>
 
