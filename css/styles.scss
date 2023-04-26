@@ -51,13 +51,4 @@ img {
 	width: 200px;
 	padding-left: 50px;
 	padding-right: 50px;
-	cursor: pointer;
-	transform: scale(1);
-	transition: 0.3s ease-in-out;
-	border: none;
-}
-.image:hover{
-	transform: scale(1.04);
-	z-index: 100;
-	border: none;
 }

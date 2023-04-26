@@ -1,7 +1,8 @@
 <?php
 require "settings/init.php";
 
-
+$bind = [":build_class" => $_GET["build_class"]];
+$builds = $db->sql("SELECT * FROM builds WHERE`build_class` = :build_class;", $bind);
 
 ?>
 
@@ -42,28 +43,33 @@ require "settings/init.php";
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 d-flex justify-content-center">
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/fortnite.png" alt="fortnite" class="img" id="mid">
+                            <img src="images/fortnite.png" alt="fortnite" class="img" data-id="2">
+                        </div>
 
+                        <?php
+
+                        echo $builds->build_class
+
+                        ?>
+
+                        <div class="image shadow p-0 m-2 border-0 rounded-5">
+                            <img src="images/gta.png" alt="gta" class="img" data-id="2">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/gta.png" alt="gta" class="img" id="mid">
+                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-id="3">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" id="high">
+                            <img src="images/csgo.png" alt="csgo" class="img" data-id="1">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/csgo.png" alt="csgo" class="img" id="low">
+                            <img src="images/minecraft.png" alt="minecraft" class="img" data-id="1">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/minecraft.png" alt="minecraft" class="img" id="low">
-                        </div>
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/warzone.png" alt="warzone" class="img" id="high">
+                            <img src="images/warzone.png" alt="warzone" class="img" data-id="3">
                         </div>
                     </div>
                 </div>
@@ -71,28 +77,10 @@ require "settings/init.php";
         </div>
         <button class="mx-auto m-2">Gå videre ></button>
     </div>
-    <div class="text-center text-white mt-4">
-        <p class="text-white" id="imageCount"></p>
-    </div>
 </section>
 
+<script type="module" src="js/builds.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    let imageCount = 0;
-    const maxImages = 2;
-
-    document.querySelectorAll('.img').forEach(img => {
-        img.addEventListener('click', () => {
-            if (imageCount < maxImages) {
-                imageCount++;
-                document.getElementById('imageCount').textContent = `You have selected ${imageCount} image${imageCount === 1 ? '' : 's'}.`;
-            }
-        });
-    });
-
-
-
-</script>
 
 </body>
 </html>
