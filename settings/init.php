@@ -16,3 +16,4 @@ if(CONFIG_LIVE == 0){
 }
 
 $db = new db($DB_SERVER, $DB_NAME, $DB_USER, $DB_PASS);
+

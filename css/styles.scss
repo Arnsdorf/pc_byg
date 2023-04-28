@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	background-color: #131349;
+	background-color: #022741;
 	font-family: Poppins;
 }
 
@@ -51,4 +51,12 @@ img {
 	width: 200px;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.selected{
+	border: #0a58ca solid 2px;
+}
+
+span{
+	color: #CD38B7;
 }

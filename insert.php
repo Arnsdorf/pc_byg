@@ -89,7 +89,7 @@ if(!empty($_POST["data"])) {
 
 <body>
 <!-- Indtastning af data -->
-<form method="post" action="insert.php" enctype="multipart/form-data">
+<form method="post" action="insert.php" enctype="multipart/form-data" class="d-flex justify-content-center align-items-center">
     <div style="font-size: .9rem;" class="row text-white m-0 d-flex d-flex justify-content-center p-0">
         <!-- builds -->
         <div class="pt-5">
@@ -226,9 +226,9 @@ if(!empty($_POST["data"])) {
                 <input class="form-control shadow" type="text" name="data[type_name]" id="type_name" placeholder="Indtast navn" value="">
             </div>
         </div>
-    </div>
-    <div class="col-12 col-md-6 offset-md-6 mb-5">
-        <button class="form-control bg-transparent d-flex justify-content-center mx-auto text-white w-25 rounded-0" type="submit" id="btnSubmit">Indsend data</button>
+        <div class="col-12 col-md-6 offset-md-6 mb-5 d-flex justify-content-center">
+            <button class="form-control" type="submit" id="btnSubmit">Indsend data</button>
+        </div>
     </div>
 </form>
 

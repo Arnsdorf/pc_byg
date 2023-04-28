@@ -28,10 +28,10 @@ if (isset($data["password"]) && $data["password"] == "CSS"){
     $sql = "SELECT * FROM builds WHERE 1=1";
     $bind = [];
 
-    $build = $db->sql($sql, $bind);
+    $builds = $db->sql($sql, $bind);
     header("HTTP/1.1 200 OK");
 
-    echo json_encode($build);
+    echo json_encode($builds);
 
 } else{
     header("HTTP/1.1 401 Unauthorized");
