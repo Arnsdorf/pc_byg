@@ -1,32 +1,33 @@
-// Vælg alle spilbilleder
 const gameImages = document.querySelectorAll('.img');
-
-// Opret et array til at gemme de valgte spilbilleder
 const selectedGames = [];
 
 // Tilføj en klik-lytter til hvert spilbillede
 gameImages.forEach(image => {
     image.addEventListener('click', function() {
-        // Find billedets placering i det valgte spilbilleder-array
-        const index = selectedGames.indexOf(this.src);
-
-        // Hvis billedet allerede er valgt, skal det fjernes fra det valgte spilbilleder-array og visuel markering fjernes
+        const index = selectedGames.indexOf(this);
         if (index > -1) {
             selectedGames.splice(index, 1);
             this.classList.remove('selected');
-
-            // Hvis billedet ikke allerede er valgt, skal det tilføjes til det valgte spilbilleder-array og visuel markering tilføjes
         } else {
-            // Kontroller, at der ikke allerede er valgt to billeder, før et tredje billede tilføjes
             if (selectedGames.length < 2) {
-                selectedGames.push(this.src);
+                selectedGames.push(this);
                 this.classList.add('selected');
+                if (selectedGames.length === 2) {
+                    const id1 = selectedGames[0].getAttribute('data-build-id');
+                    const id2 = selectedGames[1].getAttribute('data-build-id');
+                    const id3 = selectedGames[1].getAttribute('data-build-id');
+                    const highestValue = Math.max(id1, id2, id3);
+                    logBuildId(highestValue);
+                }
             }
         }
     });
 });
 
-// Tilføj en klik-lytter til en "Afmarkér alle" knap, der fjerner visuel markering og nulstiller det valgte spilbilleder-array
+function logBuildId(buildId) {
+    window.location.href = "graphicspage.php?build_id=" + buildId;
+}
+
 const clearButton = document.querySelector('#clear');
 if (clearButton) {
     clearButton.addEventListener('click', function() {
@@ -39,4 +40,18 @@ if (clearButton) {
         selectedGames.length = 0;
     });
 }
+
+const submitBtn = document.querySelector('#submit_btn');
+
+submitBtn.addEventListener('click', function() {
+    if (selectedGames.length === 2) {
+        const highestValue = Math.max(selectedGames[0], selectedGames[1]);
+        logBuildId(highestValue);
+    } else {
+        alert('Vælg venligst 2 spil');
+    }
+});
+
+
+
 
