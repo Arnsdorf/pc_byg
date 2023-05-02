@@ -1,3 +1,8 @@
+<?php
+require "settings/init.php";
+
+
+?>
 
 
 <!DOCTYPE html>
@@ -22,30 +27,51 @@
 <!-- pc-byg -->
 <section>
     <div class="pt-5">
-        <h2 class="display-6 text-center text-white fw-bold">Vælg dine top 2 <span>spil.</span></h2>
+        <h2 class="display-6 text-center text-white fw-bold">Grafisk <span>ydeevne</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
-            Vælg de <span>2 spil</span> du interessere dig for mest, eller de spil du godt kunne tænke dig at spille!
+            Grafisk ydeevne omhandler den visuelle oplevelse man oplever under <span>spil</span>, og hvor realistisk denne oplevelse er.
         </p>
     </div>
     <div class="container-fluid shadow" style="background-color: #001D31">
         <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
-            <div class="pb-3 pt-3">
+            <div class="pb-2 pt-2">
                 <div class="container">
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 d-flex justify-content-center">
-                        <div class="shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/Battlefield%20V%20Screenshot%202023.04.27%20-%2010.45.31.55.png" alt="graphic_game" class="">
+                    <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-center">
+
+                        <div class="p-0 mx-sm-2 m-0.5 position-relative">
+                            <img src="images/lowgraphic.png" alt="graphic_game" class="graphic_game">
+                            <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
+                                <h5 class="text-white mb-5 p-min"><span>Lav</span> grafisk ydeevne</h5>
+                            </div>
                         </div>
+
+                        <div class="p-0 mx-sm-2 position-relative">
+                            <img src="images/midgraphic.png" alt="graphic_game" class="graphic_game">
+                            <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
+                                <h5 class="text-white mb-5 p-min"><span>Mellem</span> grafisk ydeevne</h5>
+                            </div>
+                        </div>
+
+                        <div class="p-0 mx-sm-2 m-0 position-relative">
+                            <img src="images/highgraphic.png" alt="graphic_game" class="graphic_game">
+                            <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
+                                <h5 class="text-white mb-5 p-min"><span>Høj</span> grafisk ydeevne</h5>
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="#">< Gå tilbage</a>
+    <div class="d-flex justify-content-center mt-3 mt-sm-5 flex-sm-row flex-column">
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="buildpage.php">< Gå tilbage</a>
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" id="submit_btn">Gå videre ></a>
     </div>
 </section>
 
+<script src="js/select_graphic.js"></script>
 </body>
 </html>
