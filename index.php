@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>BuildMate</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -29,7 +29,8 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
 
+
+<script src="js/forside.js"></script>
 </body>
 </html>
