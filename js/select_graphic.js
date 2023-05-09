@@ -1,7 +1,6 @@
 const graphicImages = document.querySelectorAll('.graphic_game');
 const selectedGraphics = [];
 
-// Tilføj en klik-lytter til hvert spilbillede
 graphicImages.forEach(image => {
     image.addEventListener('click', function() {
         const index = selectedGraphics.indexOf(this);

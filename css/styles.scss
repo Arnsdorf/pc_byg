@@ -59,9 +59,12 @@ img {
 	padding-right: 50px;
 }
 .graphic_game{
-	width: 500px;
+	width: 300px;
 }
 
+.storage{
+	width: 250px;
+}
 
 .selected{
 	outline: #0a58ca solid 3px;
@@ -69,6 +72,11 @@ img {
 
 span{
 	color: #CD38B7;
+}
+
+.case{
+	height: 400px;
+	object-fit: cover;
 }
 
 //Sid's Legeplads//
