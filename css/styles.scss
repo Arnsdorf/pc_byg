@@ -82,3 +82,51 @@ span{
 //Sid's Legeplads//
 
 //Christian's Legeplads//
+.image_box{
+	min-height: 50vh;
+	height: 100vh;
+}
+.image_front{
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.frontpage-text{
+top: 38%;
+}
+.front-font{
+	color: #fff7ff;
+	font-size: 1.7rem;
+	font-family: Montserrat;
+	font-weight: bolder;
+}
+.paragraph{
+	top: 39%;
+}
+.paragraph-font{
+	color: #fff7ff;
+	font-size: 0.9rem;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+@media screen and (min-width: 768px){
+	.front-font{
+		font-size: 2.4rem;
+	}
+	.paragraph-font{
+
+		font-size: 1rem;
+
+	}
+}
+@media screen and (min-width: 1440px){
+	.front-font{
+		font-size: 12rem;
+	}
+	.paragraph-font{
+
+		font-size: 4rem;
+
+	}
+}
