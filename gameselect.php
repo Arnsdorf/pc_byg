@@ -25,7 +25,7 @@ if (isset($_GET['id1']) && isset($_GET['id2']) && isset($_GET['id3'])) {
 <head>
     <meta charset="utf-8">
 
-    <title>Byg din pc</title>
+    <title>Valg af spil</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
