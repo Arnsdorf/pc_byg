@@ -24,10 +24,10 @@ require "settings/init.php";
 </head>
 <body>
 
-<!-- pc-byg -->
+<!-- Din anbefalet computer -->
 <section>
     <div class="container py-5">
-        <h2 class="display-6 text-center text-white fw-bold mb-5">Din anbefalede <span>computer</span></h2>
+        <h2 class="display-6 text-center text-white fw-bold mb-5">Din anbefalet <span>computer</span></h2>
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 mb-5 mb-lg-0">
                 <div class="border-0 d-flex justify-content-center">
@@ -63,7 +63,7 @@ require "settings/init.php";
     </div>
 </section>
 
-<!-- pc-byg -->
+<!-- Dine Spil -->
 <section>
     <div class="pt-5">
         <h2 class="display-6 text-center text-white fw-bold">Dine <span>spil</span></h2>
@@ -74,7 +74,7 @@ require "settings/init.php";
             gamingoplevelse.
         </p>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid shadow" style="background-color: #001D31">
         <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
             <div class="pb-2 pt-2">
                 <div class="container">
@@ -103,6 +103,65 @@ require "settings/init.php";
     </div>
 </section>
 
+<!-- Dine Spil -->
+<section class="mt-5" style="background-color: #001D31">
+    <div class="pt-5 mt-5">
+        <h2 class="display-6 text-center text-white fw-bold">PC <span>Komponenter</span></h2>
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+            Ramte vi ikke helt plet? eller ønsker du at ændre
+            din <span>computer</span> yderligere så har du muligheden for
+            at <span>ændre</span> din computer som du ønsker!
+        </p>
+    </div>
+    <div class="container-fluid shadow">
+        <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
+            <div class="pb-2 pt-2">
+                <div class="container p-0 bg-question">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/cpu.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
+                        </div>
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/gpu.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Grafikkort:</span></p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/ssd.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Lagering:</span></p>
+                        </div>
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/case.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Kabinet:</span></p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/bundkort.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Motherboard:</span></p>
+                        </div>
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/køling.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Køling:</span></p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/ram.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>RAM:</span></p>
+                        </div>
+                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
+                            <img src="images/psu.png" alt="image">
+                            <p class="fs-6 ps-3 fw-bold text-white"><span>Strømforsyning:</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 </body>

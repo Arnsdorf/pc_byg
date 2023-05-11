@@ -98,14 +98,22 @@ span{
 	background-color: #022741;
 }
 
-.done_game{
-	background: linear-gradient(
-	hsl(0 0% 0% / 0),
-	hsl(20 0% 0% / 0.3) 70%,
-	hsl(0 0% 0% / 1)
-	);
+.done_game {
+	filter: brightness(60%);
 }
 
+.rounded-left-top{
+	border-top-left-radius: 0.5rem;
+}
+.rounded-right-top{
+	border-top-right-radius: 0.5rem;
+}
+.rounded-right-bottom{
+	border-bottom-right-radius: 0.5rem;
+}
+.rounded-left-bottom{
+	border-bottom-left-radius: 0.5rem;
+}
 
 //Sid's Legeplads//
 
