@@ -56,7 +56,7 @@
 
     <!-- Forside knap -->
     <div class="button_box d-flex position-relative justify-content-center">
-    <div class="button rounded-2 justify-content-center"><span class="justify-content-center d-flex pc-font p-2 ">Byg en pc</span></div>
+    <a class="text-decoration-none" href="#"><div class="button rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
     </div>
     <!-- Forside knap-end -->
 
@@ -77,14 +77,31 @@
 <div class="john ">
     <div class="row p-0 m-0">
 
-        <div class="john1 position-absolute">
+        <div class="john1 position-absolute ">
 
-            <div class="card_box ">
-                <div class="row gap-5 p-0 m-0 justify-content-center">
+            <div class="text_body_font_box">
+                <div class="header-font-box justify-content-center d-flex"><h1 class="header-font text-center">Træt af at computer-bygning kun er <br> for erfarne brugere?</h1></div>
+                <div class="soft-header-box justify-content-center d-flex pt-4 text-center"><h3 class="soft-header-font">Introducerer <span class="">en bedre måde at bygge på</span>!</h3></div>
+            </div>
 
-                <div class="card_front shadow col-10 col-md-5 col-lg-3 mt-3"></div>
-                <div class="card_front shadow col-10 col-md-5 col-lg-3 mt-3 mb-3"></div>
-                <div class="card_front shadow col-10 col-md-5 col-lg-3 mb-3 mt-md-3"></div>
+            <div class="card_box mt-5">
+                <div class="row gap-5 p-0 m-0 justify-content-center ">
+
+                <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 ">
+                    <div class="justify-content-center d-flex pt-5"> <img src="images/desktop-solid.png"></div>
+                </div>
+
+                <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 mb-3">
+                    <div class="justify-content-center d-flex pt-5"> <img src="images/keyboard-solid.png"></div>
+                </div>
+
+                <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mb-3 mt-md-3">
+                    <div class="justify-content-center d-flex pt-5"> <img src="images/gamepad-solid.png"></div>
+                </div>
+
+                    <div class="button_box d-flex position-relative justify-content-center">
+                        <a class="text-decoration-none" href="#"><div class="button rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
+                    </div>
 
                 </div>
             </div>
