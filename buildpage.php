@@ -113,49 +113,65 @@ require "settings/init.php";
             at <span>ændre</span> din computer som du ønsker!
         </p>
     </div>
-    <div class="container-fluid shadow">
-        <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
-            <div class="pb-2 pt-2">
-                <div class="container p-0 bg-question">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/cpu.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
-                        </div>
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/gpu.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Grafikkort:</span></p>
-                        </div>
+    <div class="pb-2 pt-2">
+        <div class="container w-85 mx-auto rounded-3 m-2 bg-question d-flex flex-column flex-md-row">
+            <div class="row">
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/cpu.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
                     </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/ssd.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Lagering:</span></p>
-                        </div>
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/case.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Kabinet:</span></p>
-                        </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/gpu.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Grafikkort:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
                     </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/bundkort.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Motherboard:</span></p>
-                        </div>
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/køling.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Køling:</span></p>
-                        </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/ssd.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Lagring:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
                     </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/ram.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>RAM:</span></p>
-                        </div>
-                        <div class="col-sm-5 col-lg-4 p-3 d-flex align-items-center">
-                            <img src="images/psu.png" alt="image">
-                            <p class="fs-6 ps-3 fw-bold text-white"><span>Strømforsyning:</span></p>
-                        </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/case.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Kabinet:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/bundkort.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Bundkort:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/køling.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Køling:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/ram.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>RAM:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mb-3 mb-md-0 mt-md-0 d-flex align-items-center">
+                    <img src="images/psu.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>PSU:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
                     </div>
                 </div>
             </div>
