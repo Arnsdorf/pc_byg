@@ -73,8 +73,9 @@
 </div>
 
 <!---------- Frontpage-end ------------->
+<!--content-->
 
-<div class="john ">
+<div class="john">
     <div class="row p-0 m-0">
 
         <div class="john1 position-absolute ">
@@ -89,14 +90,20 @@
 
                 <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 ">
                     <div class="justify-content-center d-flex pt-5"> <img src="images/desktop-solid.png"></div>
+                    <div class="card-rubrik"><h3 class="pt-4 rubrik1 text-center">Få en forståelse for din PC</h3></div>
+                    <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">Hos BuildMate tilbyder vi en nemmere måde at bygge din drømme-PC på, samtidig med at man får en bedre forståelse for den maskine man har samlet.</h6></div>
                 </div>
 
                 <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 mb-3">
                     <div class="justify-content-center d-flex pt-5"> <img src="images/keyboard-solid.png"></div>
+                    <div class="card-rubrik"><h3 class="pt-4 rubrik1 text-center">Få en forståelse for din PC</h3></div>
+                    <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">Med vores PC-bygningsguide kan du hurtig kom i gang med at lave en PC som passer til din stil og behov, uden at rode rundt i en jungle af forvirrende information.</h6></div>
                 </div>
 
                 <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mb-3 mt-md-3">
                     <div class="justify-content-center d-flex pt-5"> <img src="images/gamepad-solid.png"></div>
+                    <div class="card-rubrik"><h3 class="pt-4 rubrik1 text-center">Få en forståelse for din PC</h3></div>
+                    <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">BuildMate computere giver dig friheden til at udforske gamingverden, uden at blive hæmmede af en computer som ikke passer til hvad man har brug for.</h6></div>
                 </div>
 
                     <div class="button_box d-flex position-relative justify-content-center">
@@ -108,9 +115,48 @@
 
         </div>
 
+
+
+
+    </div>
+</div>
+<!--Instabox-->
+
+<div class="instaheader p-0 m-0">
+    <div class="row d-flex justify-content-center p-0 m-0">
+        <div><h1 class="instafont text-center">Følg os på <span>@BuildMate</span></h1></div>
+
+        <div class="icon_box1 icons position-relative justify-content-center d-flex pt-4 ">
+            <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
+            <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front"></i></a>
+            <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-3 icon_front"></i></a>
+        </div>
+
     </div>
 </div>
 
+<div class="insta-container shadow ">
+    <div class="row m-0 p-0">
+
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-yan-krukau-9072305 kopier 2.webp"><div class="mask"></div></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-yan-krukau-9072216 kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-ron-lach-7856023 kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-lucie-liz-3165335 (1) kopier 2.webp"></div>
+
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-julia-m-cameron-4144450 kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-artem-podrez-7773989 kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-alena-darmel-7862582 kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-garrett-morrow-682933 kopier 2.webp"></div>
+
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-yan-krukau-9072326 kopier.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-ron-lach-7848986 kopier.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-athena-2582928 kopier.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-alena-darmel-7862661 kopier.webp"></div>
+
+    </div>
+</div>
+<!--Instabox-end-->
+<!--content-end-->
 
 
 
