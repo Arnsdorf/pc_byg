@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	background-color: #022741;
-	font-family: Poppins;
+	font-family: Montserrat, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,6 @@ li {
 p {
 	margin: 0;
 	padding: 0;
-	font-family: Poppins;
 }
 
 img {
@@ -111,6 +110,18 @@ span{
 }
 
 //Sid's Legeplads//
+.navbar_logo{
+	height: 4vh;
+}
+
+.navbar a{
+	color: white;
+}
+
+.active{
+	color: #D1019B !important;
+	font-weight: bold;
+}
 
 //Christian's Legeplads//
 .image_box{

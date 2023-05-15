@@ -41,7 +41,8 @@ if (isset($_GET['id1']) && isset($_GET['id2']) && isset($_GET['id3'])) {
 
 <body>
 
-
+<!--NAVBAR-->
+<?php include 'includes/navbar.php'?>
 
 
 <!-- pc-byg -->
