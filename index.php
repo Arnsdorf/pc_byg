@@ -36,12 +36,12 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!--NAVBAR-->
-<?php include 'includes/navbar.php'?>
-
 <!---------- Frontpage ------------->
 <div class="image_box position-relative shadow">
     <img class="image_front" src="images/gaming-room-designs-blurr.jpg" alt="frontpage">
+
+    <!--NAVBAR-->
+    <?php include 'includes/navbar.php'?>
 
     <!-- Front-text -->
     <div class="frontpage-text position-relative justify-content-center d-flex ">
