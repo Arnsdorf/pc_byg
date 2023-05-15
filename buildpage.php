@@ -1,25 +1,8 @@
 <?php
 require "settings/init.php";
 
-if (isset($_GET['id1']) && isset($_GET['id2'])) {
-    $sql = "SELECT * FROM builds WHERE build_id IN (:id1, :id2)";
-    $bind = [":id1" => $_GET["id1"], ":id2" => $_GET["id2"]];
-    $builds = $db->sql($sql, $bind);
-} else {
-    echo "Error: missing required parameters";
-}
-
-if (isset($_GET['build_id'])) {
-    $build_id = $_GET['build_id'];
-    error_log("Clicked on build with id: $build_id");
-} else {
-    echo "Error: missing required parameter";
-}
-
 
 ?>
-
-
 
 
 <!DOCTYPE html>
@@ -27,81 +10,175 @@ if (isset($_GET['build_id'])) {
 <head>
     <meta charset="utf-8">
 
-    <title>Lille Test</title>
+    <title>Din anbefalede computer</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link rel="icon" href="uploads/buildmate_favicon_green.svg">
     <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
 
-
-
-
-<!-- pc-byg -->
+<!-- Din anbefalet computer -->
 <section>
-    <div class="pt-5">
-        <h2 class="display-6 text-center text-white fw-bold">Vælg dine top 2 <span>spil.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
-            Vælg de <span>2 spil</span> du interessere dig for mest, eller de spil du godt kunne tænke dig at spille!
-        </p>
-    </div>
-    <div class="container-fluid shadow" style="background-color: #001D31">
-        <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
-            <div class="pb-3 pt-3">
-                <div class="container">
+    <div class="container py-5">
+        <h2 class="display-6 text-center text-white fw-bold mb-5">Din anbefalet <span>computer</span></h2>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 mb-5 mb-lg-0">
+                <div class="border-0 d-flex justify-content-center">
+                    <img class="bg-pcblue rounded-3 pc_comp_img shadow d-flex justify-content-center" src="images/pc_done.png" alt="Din færdige pc">
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card border-0">
+                    <div class="card-body shadow rounded-3 d-flex justify-content-center flex-column">
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 d-flex justify-content-center">
+                        <p class="card-text text-white fs-5 mb-4">Grafisk ydeevne</p>
+                        <img class="stats mb-4" src="images/grafiskydeevne.png" alt="Din færdige pc">
 
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/fortnite.png" alt="fortnite" class="img" data-build-id="2" >
-                        </div>
+                        <p class="card-text text-white fs-5 mb-4">Hastighed</p>
+                        <img class="stats mb-4" src="images/hastighed.png" alt="Din færdige pc">
 
+                        <p class="card-text text-white fs-5 mb-4">Lagerplads</p>
+                        <img class="stats mb-4" src="images/lagerplads.png" alt="Din færdige pc">
 
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/gta.png" alt="gta" class="img" data-build-id="2">
-                        </div>
+                        <p class="card-text text-white fs-5 mb-4">Multitasking</p>
+                        <img class="stats mb-3" src="images/multitasking.png" alt="Din færdige pc">
 
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-build-id="3" >
-                        </div>
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/csgo.png" alt="csgo" class="img" data-build-id="1" >
-                        </div>
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1" >
-                        </div>
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/warzone.png" alt="warzone" class="img" data-build-id="3">
-                        </div>
-
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <p class="text-center fs-5 text-white">Pris: <span class="bg-pcblue">10.000 DKK</span></p>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a class="m-2 p-3 px-4 rounded-3 bg-black text-white text-decoration-none shadow" href="#">Køb nu</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center mt-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="#">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="" id="submit_btn">Gå videre ></a>
+</section>
+
+<!-- Dine Spil -->
+<section>
+    <div class="pt-5">
+        <h2 class="display-6 text-center text-white fw-bold">Dine <span>spil</span></h2>
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+            <span>FPS</span> (Frames pr. sekund) bestemmer, hvor godt din computer kan
+            køre dit ønskede <span>spil</span>. En optimal FPS ligger typisk mellem
+            60+ og 120. Alt under dette niveau kan resultere i en <span>forringet</span>
+            gamingoplevelse.
+        </p>
+    </div>
+    <div class="container-fluid shadow" style="background-color: #001D31">
+        <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
+            <div class="pb-2 pt-2">
+                <div class="container">
+
+                    <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-md-evenly justify-content-center">
+
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
+                            <img src="images/fortnite.png" alt="graphic_game" class="shadow done_game">
+                            <div class="position-absolute bottom-50 start-50 translate-middle-x text-center">
+                                <h3 class="text-white p-min fw-bold">FPS</h3>
+                            </div>
+                        </div>
+
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
+                            <img src="images/minecraft.png" alt="graphic_game" class="shadow done_game">
+                            <div class="position-absolute bottom-50 start-50 translate-middle-x text-center">
+                                <h3 class="text-white p-min fw-bold">FPS</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
+<!-- Dine Spil -->
+<section class="mt-5" style="background-color: #001D31">
+    <div class="pt-5 mt-5">
+        <h2 class="display-6 text-center text-white fw-bold">PC <span>Komponenter</span></h2>
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+            Ramte vi ikke helt plet? eller ønsker du at ændre
+            din <span>computer</span> yderligere så har du muligheden for
+            at <span>ændre</span> din computer som du ønsker!
+        </p>
+    </div>
+    <div class="pb-2 pt-2">
+        <div class="container w-85 mx-auto rounded-3 m-2 bg-question d-flex flex-column flex-md-row">
+            <div class="row">
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/cpu.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/gpu.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Grafikkort:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/ssd.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Lagring:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/case.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Kabinet:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/bundkort.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Bundkort:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/køling.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>Køling:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
+                    <img src="images/ram.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>RAM:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+                <div class="p-md-3 mt-3 mb-3 mb-md-0 mt-md-0 d-flex align-items-center">
+                    <img src="images/psu.png" class="com_icon" alt="image">
+                    <div class="d-flex flex-column">
+                        <p class="fs-6 ps-3 fw-bold text-white"><span>PSU:</span></p>
+                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<script type="module" src="js/builds.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/select_game.js"></script>
 
 </body>
 </html>

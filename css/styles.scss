@@ -59,9 +59,12 @@ img {
 	padding-right: 50px;
 }
 .graphic_game{
-	width: 500px;
+	width: 300px;
 }
 
+.storage{
+	width: 250px;
+}
 
 .selected{
 	outline: #0a58ca solid 3px;
@@ -69,6 +72,42 @@ img {
 
 span{
 	color: #CD38B7;
+}
+
+.case{
+	height: 400px;
+	object-fit: cover;
+}
+
+.pc_comp_img{
+	width: 450px;
+	height: 450px;
+	object-fit: cover;
+}
+
+.bg-pcblue{
+	background-color: #011a2c;
+}
+
+.card-body{
+	background-color: #2E3D63;
+}
+
+.card{
+	width: 300px;
+	background-color: #022741;
+}
+
+.done_game {
+	filter: brightness(60%);
+}
+
+.com_icon{
+	width: 75px;
+}
+
+.w-85{
+	width: 85%!important;
 }
 
 //Sid's Legeplads//
