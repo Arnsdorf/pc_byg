@@ -1,22 +1,3 @@
-<?php
-require "settings/init.php";
-
-if (isset($_GET['id1']) && isset($_GET['id2']) && isset($_GET['id3'])) {
-    $sql = "SELECT * FROM builds WHERE build_id IN (:id1, :id2, :id3)";
-    $bind = [
-        ":id1" => $_GET["id1"],
-        ":id2" => $_GET["id2"],
-        ":id3" => $_GET["id3"]
-    ];
-    $builds = $db->sql($sql, $bind);
-
-    var_dump($bind);
-}
-
-
-
-?>
-
 
 
 
@@ -25,7 +6,7 @@ if (isset($_GET['id1']) && isset($_GET['id2']) && isset($_GET['id3'])) {
 <head>
     <meta charset="utf-8">
 
-    <title>Valg af spil</title>
+    <title>Vælg 2 spil</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -78,7 +59,7 @@ if (isset($_GET['id1']) && isset($_GET['id2']) && isset($_GET['id3'])) {
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1" >
+                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1"  >
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
@@ -96,8 +77,22 @@ if (isset($_GET['id1']) && isset($_GET['id2']) && isset($_GET['id3'])) {
     </div>
 </section>
 
+<script>
+    const images = document.querySelectorAll('.img');
+    images.forEach(image => {
+        image.addEventListener('click', () => {
+            const buildId = image.dataset.buildId;
+            fetch(`gameselect1.php?buildId=${buildId}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                })
+                .catch(error => console.error(error));
+        });
+    });
+</script>
 
-<script type="module" src="js/builds.js"></script>
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/select_game.js"></script>
 

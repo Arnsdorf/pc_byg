@@ -2,20 +2,6 @@
 require "settings/init.php";
 
 
-if (isset($_GET['build_id'])) {
-    $build_class = $_GET['build_id'];
-    // Udfør SQL-forespørgslen
-    $result = mysqli_query($db, "SELECT bcc. * FROM builds_connect_components bcc INNER JOIN builds b ON bcc.build_id = b.build_class");
-
-    // Hent resultatet som et associeret array
-    $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-// Brug var_dump() til at logge resultatet
-    var_dump($rows);
-}
-
-
-
 ?>
 
 
@@ -82,7 +68,7 @@ if (isset($_GET['build_id'])) {
         </div>
     </div>
     <div class="d-flex justify-content-center mt-3 mb-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="buildpage.php">< Gå tilbage</a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="gameselect.php">< Gå tilbage</a>
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" id="submit_btn">Gå videre ></a>
     </div>
 </section>

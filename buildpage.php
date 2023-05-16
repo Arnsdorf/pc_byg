@@ -64,7 +64,7 @@ require "settings/init.php";
 </section>
 
 <!-- Dine Spil -->
-<section>
+<section style="background-color: #001D31">
     <div class="pt-5">
         <h2 class="display-6 text-center text-white fw-bold">Dine <span>spil</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
@@ -74,7 +74,7 @@ require "settings/init.php";
             gamingoplevelse.
         </p>
     </div>
-    <div class="container-fluid shadow" style="background-color: #001D31">
+    <div class="container-fluid shadow">
         <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
             <div class="pb-2 pt-2">
                 <div class="container">
@@ -104,8 +104,8 @@ require "settings/init.php";
 </section>
 
 <!-- Dine Spil -->
-<section class="mt-5" style="background-color: #001D31">
-    <div class="pt-5 mt-5">
+<section>
+    <div class="pt-5 mt-4">
         <h2 class="display-6 text-center text-white fw-bold">PC <span>Komponenter</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
             Ramte vi ikke helt plet? eller ønsker du at ændre
@@ -113,8 +113,8 @@ require "settings/init.php";
             at <span>ændre</span> din computer som du ønsker!
         </p>
     </div>
-    <div class="pb-2 pt-2">
-        <div class="container w-85 mx-auto rounded-3 m-2 bg-question d-flex flex-column flex-md-row">
+    <div class="pb-5 pt-2">
+        <div class="container w-85 shadow mx-auto rounded-3 m-2 bg-question d-flex flex-column flex-md-row">
             <div class="row">
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
                     <img src="images/cpu.png" class="com_icon" alt="image">
@@ -175,6 +175,17 @@ require "settings/init.php";
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="shadow" style="background-color: #001D31">
+    <div class="pt-5">
+        <p class="pt-3 pb-3 fs-5 text-white text-center p-max mx-auto">
+            Ikke helt hvad du leder efter? Det er fint! ikke alle <span>gamer</span> vinder deres første <span>spil</span>.
+        </p>
+        <div class="d-flex justify-content-center mb-5">
+            <a class="m-2 p-3 px-4 bg-black text-white text-decoration-none shadow" href="gameselect.php">Prøv igen?</a>
         </div>
     </div>
 </section>
