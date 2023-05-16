@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	background-color: #022741;
-	font-family: Poppins;
+	font-family: Montserrat, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,6 @@ li {
 p {
 	margin: 0;
 	padding: 0;
-	font-family: Poppins;
 }
 
 img {
@@ -111,6 +110,21 @@ span{
 }
 
 //Sid's Legeplads//
+.opasity{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(121, 121, 121, 0.04));
+}
+.navbar_logo{
+	height: 4vh;
+}
+
+.navbar a{
+	color: white;
+}
+
+.active{
+	color: #D1019B !important;
+	font-weight: bold;
+}
 
 //Christian's Legeplads//
 .image_box{
@@ -124,7 +138,7 @@ span{
 	height: 100%;
 }
 .frontpage-text{
-top: 38%;
+top: 28%;
 }
 .front-font{
 	color: #fff7ff;
@@ -133,14 +147,250 @@ top: 38%;
 	font-weight: bolder;
 }
 .paragraph{
-	top: 39%;
+	top: 29%;
 }
 .paragraph-font{
 	color: #fff7ff;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
+	font-family: Montserrat;
+	font-weight: normal;
+}
+.icon_box{
+	height: 5vh;
+	top: 65%;
+}
+.button_box{
+	top: 20%;
+}
+.button{
+	background-image: linear-gradient(to right, #55ee92, #1d95e5);
+	height: 4.5vh;
+	width: 6rem;
+	transition: background-color 1s;
+}
+.button_box1{
+	top: 10%;
+}
+.button1{
+	background-image: linear-gradient(to right, #55ee92, #1d95e5);
+	height: 5vh;
+	width: 7rem;
+	transition: background-color 1s;
+}
+.knap-text{
+	color: #ffffff;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 0.7rem;
+}
+.knap-text:hover{
+	color: #41ffe2;
+
+}
+.button:hover, .gradient-hover-effect:focus{
+	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
+	transform: scale(1.03);
+	transition: 100ms;
+}
+.button1:hover, .gradient-hover-effect:focus{
+	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
+	transform: scale(1.03);
+	transition: 100ms;
+}
+.scroll_icon{
+	top: 60%;
+}
+.icon_front{
+	font-size: 1.5rem;
+}
+.icon_front:hover{
+	color: #ee55cf;
+ }
+
+//-------scrool animation--------//
+.scrolldown {
+	--color: white;
+	--sizeX: 20px;
+	--sizeY: 35px;
+	position: relative;
+	width: var(--sizeX);
+	height: var(--sizeY);
+	margin-left: var(sizeX / 2);
+	border: calc(var(--sizeX) / 10) solid var(--color);
+	border-radius: 50px;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+
+.scrolldown::before {
+	content: "";
+	position: absolute;
+	bottom: 24px;
+	left: 50%;
+	width: 6px;
+	height: 6px;
+	margin-left: -3px;
+	background-color: var(--color);
+	border-radius: 100%;
+	animation: scrolldown-anim 2s infinite;
+	box-sizing: border-box;
+	box-shadow: 0px -5px 3px 1px #ffffff66;
+}
+
+@keyframes scrolldown-anim {
+	0% {
+		opacity: 0;
+		height: 6px;
+	}
+	40% {
+		opacity: 1;
+		height: 10px;
+	}
+	80% {
+		transform: translate(0, 20px);
+		height: 10px;
+		opacity: 0;
+	}
+	100% {
+		height: 3px;
+		opacity: 0;
+	}
+}
+.chevrons {
+	padding: 6px 0 0 0;
+	margin-left: -3px;
+	margin-top: 34px;
+	width: 22.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.chevrondown {
+	margin-top: -6px;
+	position: relative;
+	border: solid var(--color);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	transform: rotate(45deg);
+}
+.chevrondown:nth-child(odd) {
+	animation: pulse 500ms ease infinite alternate;
+}
+.chevrondown:nth-child(even) {
+	animation: pulse 500ms ease infinite alternate 250ms;
+}
+@keyframes pulse {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.5;
+	}
+}
+//-------scrool animation--------//
+//-------Content--------//
+.john{
+	height: 290vh;
+	background-color: #2e3d63;
+}
+.john1{
+	height:270vh;
+	top: 108%;
+	--skew-angle: 2deg;
+	position: relative;
+	isolation: isolate;
+
+}
+.john1::after{
+	content: '';
+	background-color: #1f2d4d;
+	position: absolute;
+	inset: 0;
+	transform: skewY(var(--skew-angle));
+	z-index: -1;
+}
+.card_front{
+	background-image: linear-gradient( rgb(24, 24, 24), #020202);
+	border-radius: 15px;
+	width: 18rem;
+	height: 63vh;
+}
+.header-font{
+	padding-top: 3rem;
+	font-size: 1.3rem;
+	color: #ffffff;
 	font-family: Montserrat;
 	font-weight: bold;
 }
+.soft-header-font{
+	font-size: 1rem;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+.card-text1{
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.7;
+}
+.rubrik1{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #00bdff;
+}
+.rubrik2{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #5e387c;
+}
+.rubrik3{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #2ceca9;
+}
+.card-image{
+
+}
+.insta-container{
+	background-color: #000000;
+}
+.instabox{
+	min-height: 5vh;
+	height: 25vh;
+}
+.instabox:hover{
+	opacity: .6;
+	transition: 50ms ease-out;
+}
+.instaimage{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.instaheader{
+	background-color: #2e3d63;
+}
+.instafont{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.4rem;
+	color: #ffffff;
+}
+.icon_box1{
+	height: 5vh;
+	margin-bottom: 4rem;
+}
+.icons{
+	font-size: 2rem;
+}
+//-------Content--------//
+
 @media screen and (min-width: 768px){
 	.front-font{
 		font-size: 2.4rem;
@@ -150,14 +400,135 @@ top: 38%;
 		font-size: 1rem;
 
 	}
+	.icon_box{
+		height: 5vh;
+		top: 63%;
+	}
+	.icons{
+		color: #e8e8e8;
+		font-size: 1.8rem;
+	}
+	.scroll_icon{
+		top: 70%;
+	}
+	.john{
+		height: 210vh;
+		background-color: #2e3d63;
+	}
+	.john1{
+		height:190vh;
+	}
+	.instabox{
+		height: 25vh;
+	}
+	.instafont{
+		font-size: 1.6rem;
+	}
+	.icons{
+		font-size: 2.3rem;
+	}
+}
+@media screen and (min-width: 1024px){
+	.front-font{
+		font-size: 2.4rem;
+	}
+	.paragraph-font{
+		font-size: 1rem;
+	}
+	.john{
+		height: 118vh;
+		background-color: #2e3d63;
+
+	}
+	.john1{
+		height:90vh;
+	}
+	.instabox{
+		height: 20vh;
+	}
+	.instafont{
+		font-size: 1.8rem;
+	}
 }
 @media screen and (min-width: 1440px){
 	.front-font{
-		font-size: 12rem;
+		font-size: 3rem;
 	}
 	.paragraph-font{
+		font-size: 1.2rem;
+	}
+	.icon_box{
+		height: 5vh;
+		top: 63%;
+	}
+	.icons{
+		color: #e8e8e8;
+		font-size: 2rem;
+	}
+	.button{
+		margin-top: 10px;
+		height: 6vh;
+		width: 9rem;
+	}
+	.knap-text{
 
-		font-size: 4rem;
+	}
+	.pc-font{
+		color: #ffffff;
+		font-family: Montserrat;
+		font-weight: bold;
+		font-size: 1.1rem;
+	}
+	.john{
+		height: 150vh;
+		background-color: #2e3d63;
 
+	}
+	.john1{
+		height:120vh;
+	}
+	.card_front{
+		width: 20vw;
+	}
+	.knap-text{
+		top: 5%;
+		font-size: 1rem;
+	}
+	.header-font{
+		font-size: 1.9rem;
+	}
+	.soft-header-font{
+		font-size: 1.3rem;
+
+	}
+	.instabox{
+		min-height: 5vh;
+		height: 35vh;
+	}
+	.instafont{
+		font-size: 2rem;
+	}
+	.icons{
+		font-size: 2.5rem;
+	}
+	.icon_box1{
+
+		margin-bottom: 6rem;
+	}
+	.button_box1{
+		top: 10%;
+	}
+	.button1{
+		background-image: linear-gradient(to right, #55ee92, #1d95e5);
+		height: 6vh;
+		width: 9rem;
+		transition: background-color 1s;
+	}
+	.icon_box1{
+		height: 5vh;
+		top: 63%;
+	}
+	.icon_front{
+		font-size: 2rem;
 	}
 }

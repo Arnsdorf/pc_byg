@@ -22,7 +22,8 @@
 
 <body>
 
-
+<!--NAVBAR-->
+<?php include 'includes/navbar.php'?>
 
 
 <!-- pc-byg -->
