@@ -8,15 +8,15 @@
 <nav class="navbar navbar-expand-lg opasity ">
     <div class="container-fluid ">
         <a class="navbar-brand" href="index.php">
-            <img src="/images/buildmate_logo_light.svg" class="navbar_logo" alt="Buildmate logo">
+            <img src="images/buildmate_logo_light.svg" class="navbar_logo" alt="Buildmate logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div class="navbar-nav text-center ms-lg-auto">
-                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5 active" aria-current="page" href="pc_byg/index.php">Forside</a>
-                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="/gameselect.php">Byg en PC</a>
+                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5 active" aria-current="page" href="index.php">Forside</a>
+                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="gameselect.php">Byg en PC</a>
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="#">Om os</a>
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="#">Support</a>
             </div>
