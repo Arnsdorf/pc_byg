@@ -245,34 +245,30 @@ span{
 	font-weight: bolder;
 }
 .paragraph{
-	top: 29%;
-	color: #fff7ff;
-	font-size: 0.8rem;
-	font-family: Montserrat;
-	font-weight: normal;
+	top: 15rem;
 }
 .paragraph-font{
 	font-weight: normal;
+	font-size: 0.9rem;
+	color: #fff7ff;
+	font-family: Montserrat;
 }
 .icon_box{
+	top: 32rem;
 	height: 5vh;
-	top: 70%;
 }
 .button_box{
-	top: 20%;
+	top: 13rem;
 }
 .button{
 	background-image: linear-gradient(to right, #55ee92, #1d95e5);
-	height: 4vh;
+	height: 2rem;
 	width: 6rem;
 	transition: background-color 1s;
 }
-.button_box1{
-	top: 10%;
-}
 .button1{
 	background-image: linear-gradient(to right, #55ee92, #1d95e5);
-	height: 4vh;
+	height: 2rem;
 	width: 7rem;
 	transition: background-color 1s;
 }
@@ -284,7 +280,6 @@ span{
 }
 .knap-text:hover{
 	color: #41ffe2;
-
 }
 .button:hover, .gradient-hover-effect:focus{
 	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
@@ -297,7 +292,7 @@ span{
 	transition: 100ms;
 }
 .scroll_icon{
-	top: 68%;
+	top: 32rem;
 }
 .icon_front{
 	font-size: 1.5rem;
@@ -315,19 +310,21 @@ span{
 .tag:hover{
 	color: #2ceca9;
 }
-.instaheader{
-	height: 20vh;
-}
+
 //-------Content--------//
 .john{
-	height: 220vh;
 	background-color: #f8f8f8;
 }
 .john1{
-	height:210vh;
 	position: relative;
 	isolation: isolate;
-
+}
+.instaheader{
+	background-color: #f8f8f8;
+	height: 20vh;
+}
+.insta-container{
+	background-color: #000000;
 }
 .john1::after{
 	content: '';
@@ -341,7 +338,6 @@ span{
 	background-image: linear-gradient( rgb(24, 24, 24), #020202);
 	border-radius: 15px;
 	width: 18rem;
-	height: 48vh;
 }
 .header-font{
 	padding-top: 3rem;
@@ -380,12 +376,6 @@ span{
 	font-size: 1.2rem;
 	color: #2ceca9;
 }
-.card-image{
-
-}
-.insta-container{
-	background-color: #000000;
-}
 .instabox{
 	min-height: 5vh;
 	height: 25vh;
@@ -398,9 +388,6 @@ span{
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
-}
-.instaheader{
-	background-color: #f8f8f8;
 }
 .instafont{
 	font-family: Montserrat;
@@ -418,6 +405,9 @@ span{
 //-------Content--------//
 
 @media screen and (min-width: 768px){
+	.john{
+		height: 2rem;
+	}
 	.front-font{
 		font-size: 2.4rem;
 	}
@@ -425,21 +415,10 @@ span{
 		font-size: 1rem;
 	}
 	.icon_box{
-		height: 5vh;
-		top: 71%;
-	}
-	.icons{
-		color: #e8e8e8;
-		font-size: 1.8rem;
+		height: 5dvmax;
 	}
 	.scroll_icon{
-		top: 70%;
-	}
-	.john{
-		height: 160vh;
-	}
-	.john1{
-		height:150vh;
+		top: 35rem;
 	}
 	.instabox{
 		height: 25vh;
@@ -447,14 +426,14 @@ span{
 	.instafont{
 		font-size: 1.6rem;
 	}
-	.icons{
-		font-size: 2.3rem;
-	}
 	.button1{
 		background-image: linear-gradient(to right, #55ee92, #1d95e5);
 		height: 4vh;
 		width: 7rem;
 		transition: background-color 1s;
+	}
+	.instabox{
+		height: 20vh;
 	}
 }
 @media screen and (min-width: 1024px){
@@ -463,12 +442,6 @@ span{
 	}
 	.paragraph-font{
 		font-size: 1rem;
-	}
-	.john{
-		height: 110vh;
-	}
-	.john1{
-		height:97vh;
 	}
 	.instabox{
 		height: 20vh;
@@ -484,28 +457,28 @@ span{
 	}
 }
 @media screen and (min-width: 1440px){
-	.front-font{
-		font-size: 3rem;
+	.john{
+		height: 15rem;
+	}
+	.scroll_icon{
+		top: 43rem;
+	}
+	.paragraph{
+		top: 18rem;
 	}
 	.paragraph-font{
 		font-size: 1.2rem;
 	}
 	.icon_box{
-		height: 5vh;
-		top: 70%;
-	}
-	.icons{
-		color: #e8e8e8;
-		font-size: 2rem;
+		top: 36rem;
 	}
 	.button{
-		margin-top: 10px;
+		margin-top: 4rem;
 		height: 4.7vh;
 		width: 9rem;
 	}
-
-	.knap-text{
-
+	.soft-header-font{
+		font-size: 1.4rem;
 	}
 	.pc-font{
 		color: #ffffff;
@@ -513,24 +486,12 @@ span{
 		font-weight: bold;
 		font-size: 1.1rem;
 	}
-	.john{
-		height: 110vh;
-	}
-	.john1{
-		height:95vh;
-	}
-	.card_front{
-		width: 20vw;
-	}
 	.knap-text{
 		top: 5%;
 		font-size: 1rem;
 	}
 	.header-font{
 		font-size: 1.9rem;
-	}
-	.soft-header-font{
-		font-size: 1.3rem;
 	}
 	.instabox{
 		min-height: 5vh;
@@ -540,32 +501,15 @@ span{
 		font-size: 2rem;
 	}
 	.icons{
-		font-size: 2.5rem;
-	}
-	.icon_box1{
-
-		margin-bottom: 6rem;
-	}
-	.button_box1{
-		top: 10%;
+		font-size: 2.3rem;
 	}
 	.button1{
 		background-image: linear-gradient(to right, #55ee92, #1d95e5);
-		height: 4.7vh;
+		height: 2.9rem;
 		width: 9rem;
 		transition: background-color 1s;
 	}
-	.icon_box1{
-		height: 5vh;
-		top: 63%;
-	}
-	.icon_front{
-		font-size: 2rem;
-	}
-	.card_front{
-		background-image: linear-gradient( rgb(24, 24, 24), #020202);
-		border-radius: 15px;
-		width: 18rem;
-		height: 48vh;
+	.ja{
+		bottom: 100rem;
 	}
 }

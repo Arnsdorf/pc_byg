@@ -40,7 +40,7 @@ if (isset($data["password"]) && $data["password"] == "CSS"){
 
 } else{
     header("HTTP/1.1 401 Unauthorized");
-    $error["errorMessage"] = "Hov Skipper, kodeordet er vidst nok forkert, kammerat";
+    $error["errorMessage"] = "Kodeord mislykkedes";
 
     echo json_encode($error);
 }

@@ -1,7 +1,23 @@
 const gameImages = document.querySelectorAll('.img');
 const selectedGames = [];
 
-// Tilføj en klik-lytter til hvert spilbillede
+gameImages.forEach(image => {
+    image.addEventListener('click', () => {
+        const data = {
+            password: "CSS",
+            buildId: image.dataset.buildId,
+        };
+
+        fetch(`api.php`, {
+            method: 'POST',
+            body: JSON.stringify(data),
+        }).then(response => response.json()).then(data => {
+            console.log(data);
+            localStorage.setItem('selectedGame', JSON.stringify(data));
+        }).catch(error => console.error(error));
+    });
+});
+
 gameImages.forEach(image => {
     image.addEventListener('click', function() {
         const index = selectedGames.indexOf(this);
@@ -15,8 +31,7 @@ gameImages.forEach(image => {
                 if (selectedGames.length === 2) {
                     const id1 = selectedGames[0].getAttribute('data-build-id');
                     const id2 = selectedGames[1].getAttribute('data-build-id');
-                    const id3 = selectedGames[1].getAttribute('data-build-id');
-                    const highestValue = Math.max(id1, id2, id3);
+                    const highestValue = Math.max(id1, id2);
                     logBuildId(highestValue);
                 }
             }
