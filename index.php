@@ -90,7 +90,7 @@
 
         <div class="john1 position-absolute ">
 
-            <div class="text_body_font_box">
+            <div class="text_body_font_box mt-5">
                 <div class="header-font-box justify-content-center d-flex"><h1 class="header-font text-center">Træt af at computer-bygning kun er <br> for erfarne brugere?</h1></div>
                 <div class="soft-header-box justify-content-center d-flex pt-4 text-center"><h3 class="soft-header-font">Introducerer <span class="">en bedre måde at bygge på</span>!</h3></div>
             </div>
@@ -100,7 +100,7 @@
 
                 <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 ">
                     <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/desktop-solid.png"></div>
-                    <div class="card-rubrik"><h3 class="pt-4 rubrik1 text-center">Få en forståelse for din PC</h3></div>
+                    <div class="card-rubrik"><h3 class=" ps-2 pe-2 pt-4 rubrik1 text-center">Få en forståelse for din PC</h3></div>
                     <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">Hos BuildMate tilbyder vi en nemmere måde at bygge din drømme-PC på, samtidig med at man får en bedre forståelse for den maskine man har samlet.</h6></div>
                 </div>
 
@@ -134,12 +134,12 @@
 
 <div class="instaheader p-0 m-0">
     <div class="row d-flex justify-content-center p-0 m-0">
-        <div><h1 class="instafont text-center">Følg os på <span>@BuildMate</span></h1></div>
+        <div><h1 class="instafont text-center">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
 
         <div class="icon_box1 icons position-relative justify-content-center d-flex pt-4 ">
-            <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
-            <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front"></i></a>
-            <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-3 icon_front"></i></a>
+            <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front1"></i></a>
+            <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front1"></i></a>
+            <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-3 icon_front1"></i></a>
         </div>
 
     </div>
