@@ -28,7 +28,7 @@
 
 <!-- pc-byg -->
 <section class="d-flex align-items-center justify-content-center">
-    <div class="pt-5">
+    <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg dine top 2 <span>spil.</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
             Vælg de <span>2 spil</span> du interessere dig for mest, eller de spil du godt kunne tænke dig at spille!
@@ -80,15 +80,22 @@
 
 <script>
     const images = document.querySelectorAll('.img');
+
     images.forEach(image => {
         image.addEventListener('click', () => {
-            const buildId = image.dataset.buildId;
-            fetch(`gameselect1.php?buildId=${buildId}`)
-                .then(response => response.json())
-                .then(data => {
-                    console.log(data);
-                })
-                .catch(error => console.error(error));
+
+            const data = {
+                password: "CSS",
+                buildId: image.dataset.buildId,
+            };
+
+            fetch(`api.php`, {
+                method: 'POST',
+                body: JSON.stringify(data),
+            }).then(response => response.json()).then(data => {
+                console.log(data);
+            }).catch(error => console.error(error));
+
         });
     });
 </script>

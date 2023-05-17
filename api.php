@@ -4,7 +4,6 @@ require "settings/init.php";
 $data = json_decode(file_get_contents('php://input'), true);
 
 
-$data['password'] = "CSS";
 /*
  * password: Skal udfyldes og være CSS
  *
@@ -25,8 +24,14 @@ $header = "HTTP/1.1 200 No Content"; // Updating or deleting a resource results 
 header("Content-Type: application/json; charset=utf-8");
 
 if (isset($data["password"]) && $data["password"] == "CSS"){
-    $sql = "SELECT * FROM builds WHERE 1=1";
-    $bind = [];
+
+    if(empty($data["buildId"])){
+        echo "Error";
+        exit;
+    }
+
+    $sql = "SELECT * FROM builds WHERE build_class = :build_class";
+    $bind = [":build_class" => $data["buildId"]];
 
     $builds = $db->sql($sql, $bind);
     header("HTTP/1.1 200 OK");
