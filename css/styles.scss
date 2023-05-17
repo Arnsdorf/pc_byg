@@ -402,7 +402,8 @@ span{
 	font-size: 2rem;
 }
 //-------Content--------//
-@media screen and (min-width: 390px){
+
+@media screen and (min-width: 375px){
 	.paragraph{
 		top: 15rem;
 	}
@@ -410,10 +411,10 @@ span{
 		top: 13rem;
 	}
 	.scroll_icon{
-		top: 35rem;
+		top: 25rem;
 	}
 	.icon_box{
-		top: 34rem;
+		top: 24rem;
 	}
 }
 @media screen and (min-width: 414px){
@@ -428,6 +429,14 @@ span{
 	}
 	.icon_box{
 		top: 38.5rem;
+	}
+}
+@media screen and (min-width: 414px){
+	.scroll_icon{
+		top: 35rem;
+	}
+	.icon_box{
+		top: 34rem;
 	}
 }
 @media screen and (min-width: 768px){
