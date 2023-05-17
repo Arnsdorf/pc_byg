@@ -239,7 +239,7 @@ span{
 	font-family: Montserrat;
 }
 .icon_box{
-	top: 32rem;
+	top: 34rem;
 	height: 5vh;
 }
 .button_box{
@@ -277,7 +277,7 @@ span{
 	transition: 100ms;
 }
 .scroll_icon{
-	top: 32rem;
+	top: 33rem;
 }
 .icon_front{
 	font-size: 1.5rem;
@@ -295,7 +295,6 @@ span{
 .tag:hover{
 	color: #2ceca9;
 }
-
 //-------Content--------//
 .john{
 	background-color: #f8f8f8;
@@ -388,7 +387,34 @@ span{
 	font-size: 2rem;
 }
 //-------Content--------//
-
+@media screen and (min-width: 390px){
+	.paragraph{
+		top: 15rem;
+	}
+	.button_box{
+		top: 13rem;
+	}
+	.scroll_icon{
+		top: 35rem;
+	}
+	.icon_box{
+		top: 34rem;
+	}
+}
+@media screen and (min-width: 414px){
+	.paragraph{
+		top: 16rem;
+	}
+	.button_box{
+		top: 15rem;
+	}
+	.scroll_icon{
+		top: 39rem;
+	}
+	.icon_box{
+		top: 38.5rem;
+	}
+}
 @media screen and (min-width: 768px){
 	.john{
 		height: 2rem;
@@ -398,9 +424,6 @@ span{
 	}
 	.paragraph-font{
 		font-size: 1rem;
-	}
-	.icon_box{
-		height: 5dvmax;
 	}
 	.scroll_icon{
 		top: 35rem;
