@@ -74,5 +74,6 @@ require "settings/init.php";
 </section>
 
 <script src="js/select_graphic.js"></script>
+<script src="js/graphic_select.js"></script>
 </body>
 </html>

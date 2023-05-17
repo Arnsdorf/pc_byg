@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -77,29 +74,6 @@
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="" id="submit_btn">Gå videre ></a>
     </div>
 </section>
-
-<script>
-    const images = document.querySelectorAll('.img');
-
-    images.forEach(image => {
-        image.addEventListener('click', () => {
-
-            const data = {
-                password: "CSS",
-                buildId: image.dataset.buildId,
-            };
-
-            fetch(`api.php`, {
-                method: 'POST',
-                body: JSON.stringify(data),
-            }).then(response => response.json()).then(data => {
-                console.log(data);
-            }).catch(error => console.error(error));
-
-        });
-    });
-</script>
-
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/select_game.js"></script>
