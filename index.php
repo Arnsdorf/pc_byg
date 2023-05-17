@@ -54,6 +54,12 @@
     </div>
     <!-- Front-text-end -->
 
+
+    <!-- Forside knap -->
+    <div class="button_box d-flex position-relative justify-content-center">
+    <a class="text-decoration-none" href="#"><div class="button rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
+    </div>
+    <!-- Forside knap-end --><
     <div class="d-flex justify-content-center scroll_icon position-relative ">
         <div class='scrolldown'>
             <div class="chevrons ">
@@ -62,15 +68,6 @@
             </div>
         </div>
     </div>
-
-
-
-    <!-- Forside knap -->
-    <div class="button_box d-flex position-relative justify-content-center">
-    <a class="text-decoration-none" href="#"><div class="button rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
-    </div>
-    <!-- Forside knap-end --><
->
     <!-- Social-icon-front -->
     <div class="icon_box position-relative justify-content-center justify-content-md-start d-flex">
         <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
