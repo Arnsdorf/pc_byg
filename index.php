@@ -63,19 +63,21 @@
         </div>
     </div>
 
-    <!-- Social-icon-front -->
-    <div class="icon_box icons position-relative justify-content-center justify-content-md-start d-flex">
-       <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
-        <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-2 px-2 px-md-0 icon_front"></i></a>
-            <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-2 icon_front"></i></a>
-    </div>
-    <!-- Social-icon-front-end -->
+
 
     <!-- Forside knap -->
     <div class="button_box d-flex position-relative justify-content-center">
     <a class="text-decoration-none" href="#"><div class="button rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
     </div>
-    <!-- Forside knap-end -->
+    <!-- Forside knap-end --><
+>
+    <!-- Social-icon-front -->
+    <div class="icon_box position-relative justify-content-center justify-content-md-start d-flex">
+        <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
+        <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-2 px-2 px-md-0 icon_front"></i></a>
+        <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-2 icon_front"></i></a>
+    </div>
+    <!-- Social-icon-front-end -->
 
     <!-- Scroll animation -->
 
@@ -83,64 +85,61 @@
 </div>
 
 <!---------- Frontpage-end ------------->
-<!--content-->
+<!-----------content-------------------->
+<div class="john1 m-0 p-0">
+
+    <div class="text_body_font_box ">
+        <div class="header-font-box justify-content-center d-flex"><h1 class="header-font text-center">Træt af at computer-bygning kun er <br> for erfarne brugere?</h1></div>
+        <div class="soft-header-box justify-content-center d-flex pt-4 text-center"><h3 class="soft-header-font">Introducerer <span class="">en bedre måde at bygge på</span>!</h3></div>
+    </div>
+
+    <div class="card_box mt-5">
+        <div class="row gap-5 p-0 m-0 justify-content-center ">
+
+            <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 ">
+                <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/desktop-solid.png"></div>
+                <div class="card-rubrik"><h3 class=" ps-2 pe-2 pt-5 rubrik1 text-center">Få en forståelse for din PC</h3></div>
+                <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">Hos BuildMate tilbyder vi en nemmere måde at bygge din drømme-PC på, samtidig med at man får en bedre forståelse for den maskine man har samlet.</h6></div>
+            </div>
+
+            <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 mb-3">
+                <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/keyboard-solid.png"></div>
+                <div class="card-rubrik"><h3 class="pt-4 rubrik2 text-center">Kom direkte tind i PC-bygning</h3></div>
+                <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">Med vores PC-bygningsguide kan du hurtig kom i gang med at lave en PC som passer til din stil og behov, uden at rode rundt i en jungle af forvirrende information.</h6></div>
+            </div>
+
+            <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mb-3 mt-md-3">
+                <div class="justify-content-center d-flex pt-5 "> <img class="card-image text-center" src="images/gamepad-solid.png"></div>
+                <div class="card-rubrik"><h3 class="pt-4 rubrik3 text-center">Dine spil, dine behov</h3></div>
+                <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">BuildMate computere giver dig friheden til at udforske gamingverden, uden at blive hæmmede af en computer som ikke passer til hvad man har brug for.</h6></div>
+            </div>
+            <!-----button1----->
+            <div class="button_box1 d-flex position-relative justify-content-center pb-5">
+                <a class="text-decoration-none" href="#"><div class="button1 rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
+            </div>
+            <!-----button1-end----->
+        </div>
+    </div>
+
+</div>
 
 <div class="john">
     <div class="row p-0 m-0">
-
-        <div class="john1 position-absolute ">
-
-            <div class="text_body_font_box mt-5">
-                <div class="header-font-box justify-content-center d-flex"><h1 class="header-font text-center">Træt af at computer-bygning kun er <br> for erfarne brugere?</h1></div>
-                <div class="soft-header-box justify-content-center d-flex pt-4 text-center"><h3 class="soft-header-font">Introducerer <span class="">en bedre måde at bygge på</span>!</h3></div>
-            </div>
-
-            <div class="card_box mt-5">
-                <div class="row gap-5 p-0 m-0 justify-content-center ">
-
-                <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 ">
-                    <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/desktop-solid.png"></div>
-                    <div class="card-rubrik"><h3 class=" ps-2 pe-2 pt-4 rubrik1 text-center">Få en forståelse for din PC</h3></div>
-                    <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">Hos BuildMate tilbyder vi en nemmere måde at bygge din drømme-PC på, samtidig med at man får en bedre forståelse for den maskine man har samlet.</h6></div>
-                </div>
-
-                <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 mb-3">
-                    <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/keyboard-solid.png"></div>
-                    <div class="card-rubrik"><h3 class="pt-4 rubrik2 text-center">Kom direkte tind i PC-bygning</h3></div>
-                    <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">Med vores PC-bygningsguide kan du hurtig kom i gang med at lave en PC som passer til din stil og behov, uden at rode rundt i en jungle af forvirrende information.</h6></div>
-                </div>
-
-                <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mb-3 mt-md-3">
-                    <div class="justify-content-center d-flex pt-5 "> <img class="card-image text-center" src="images/gamepad-solid.png"></div>
-                    <div class="card-rubrik"><h3 class="pt-4 rubrik3 text-center">Dine spil, dine behov</h3></div>
-                    <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5">BuildMate computere giver dig friheden til at udforske gamingverden, uden at blive hæmmede af en computer som ikke passer til hvad man har brug for.</h6></div>
-                </div>
-
-                    <div class="button_box1 d-flex position-relative justify-content-center">
-                        <a class="text-decoration-none" href="#"><div class="button1 rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
-
 
     </div>
 </div>
 <!--Instabox-->
 
-<div class="instaheader p-0 m-0">
-    <div class="row d-flex justify-content-center p-0 m-0">
-        <div><h1 class="instafont text-center">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
+<div class="instaheader pt-2 pt-md-0">
+    <div class="row j d-flex p-0 m-0 ">
 
-        <div class="icon_box1 icons position-relative justify-content-center d-flex pt-4 ">
-            <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front1"></i></a>
-            <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front1"></i></a>
-            <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-3 icon_front1"></i></a>
-        </div>
+            <div><h1 class="instafont text-center pt-5">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
+
+            <div class="icon_box1 icons position-relative justify-content-center d-flex pt-4">
+                <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front1"></i></a>
+                <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front1"></i></a>
+                <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-linkedin ps-md-3 icon_front1"></i></a>
+            </div>
 
     </div>
 </div>
@@ -148,7 +147,7 @@
 <div class="insta-container shadow ">
     <div class="row m-0 p-0">
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_1.webp"><div class="mask"></div></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_1.webp"><div class="mask">hej</div></div>
         <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_2.webp"></div>
         <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_3.webp"></div>
         <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_4.webp"></div>
