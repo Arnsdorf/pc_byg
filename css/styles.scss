@@ -221,29 +221,29 @@ span{
 	height: 100%;
 }
 .frontpage-text{
-	top: 28%;
+padding-top: 15rem;
 }
+	.button_box{
+		padding-top: 1rem;
+	}
+	.scroll_icon{
+		padding-top: 15rem;
+	}
+	.icon_box{
+		height: 5vh;
+		padding-top: 3rem;
+	}
 .front-font{
 	color: #fff7ff;
 	font-size: 1.7rem;
 	font-family: Montserrat;
 	font-weight: bolder;
 }
-.paragraph{
-	top: 15rem;
-}
 .paragraph-font{
 	font-weight: normal;
 	font-size: 0.9rem;
 	color: #fff7ff;
 	font-family: Montserrat;
-}
-.icon_box{
-	top: 34rem;
-	height: 5vh;
-}
-.button_box{
-	top: 13rem;
 }
 .button{
 	background-image: linear-gradient(to right, #55ee92, #1d95e5);
@@ -275,9 +275,6 @@ span{
 	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
 	transform: scale(1.03);
 	transition: 100ms;
-}
-.scroll_icon{
-	top: 33rem;
 }
 .icon_front{
 	font-size: 1.5rem;
@@ -389,39 +386,19 @@ span{
 //-------Content--------//
 
 @media screen and (min-width: 375px){
-	.paragraph{
-		top: 15rem;
-	}
-	.button_box{
-		top: 13rem;
-	}
 	.scroll_icon{
-		top: 25rem;
+	padding-top: 6rem;
 	}
 	.icon_box{
-		top: 24rem;
-	}
-}
-@media screen and (min-width: 414px){
-	.paragraph{
-		top: 16rem;
-	}
-	.button_box{
-		top: 15rem;
-	}
-	.scroll_icon{
-		top: 39rem;
-	}
-	.icon_box{
-		top: 38.5rem;
+		padding-top: 3.2rem;
 	}
 }
 @media screen and (min-width: 414px){
 	.scroll_icon{
-		top: 35rem;
+		padding-top: 12rem;
 	}
 	.icon_box{
-		top: 34rem;
+		padding-top: 6rem;
 	}
 }
 @media screen and (min-width: 768px){
@@ -472,36 +449,30 @@ span{
 		width: 18rem;
 		height: 53vh;
 	}
+	.icon_box{
+		padding-top: 5rem;
+	}
 }
 @media screen and (min-width: 1440px){
+
 	.john{
 		height: 15rem;
-	}
-	.scroll_icon{
-		top: 43rem;
-	}
-	.paragraph{
-		top: 18rem;
 	}
 	.paragraph-font{
 		font-size: 1.2rem;
 	}
+	.scroll_icon{
+		padding-top: 12rem;
+	}
 	.icon_box{
-		top: 36rem;
+		padding-top: 8rem;
 	}
 	.button{
-		margin-top: 4rem;
 		height: 4.7vh;
 		width: 9rem;
 	}
 	.soft-header-font{
 		font-size: 1.4rem;
-	}
-	.pc-font{
-		color: #ffffff;
-		font-family: Montserrat;
-		font-weight: bold;
-		font-size: 1.1rem;
 	}
 	.knap-text{
 		top: 5%;
@@ -528,5 +499,8 @@ span{
 	}
 	.ja{
 		bottom: 100rem;
+	}
+	.frontpage-text{
+		padding-top: 19rem;
 	}
 }
