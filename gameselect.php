@@ -12,7 +12,7 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link rel="tab icon" type="img" href="images/buildmate_favicon_green.svg">
+    <link rel="tab icon" type="img" href="images/buildmate_favicon_pink.svg">
     <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">

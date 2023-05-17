@@ -110,6 +110,8 @@ span{
 }
 
 //Sid's Legeplads//
+
+	//NAVBAR
 .opasity{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(121, 121, 121, 0.04));
 }
@@ -124,6 +126,19 @@ span{
 .active{
 	color: #D1019B !important;
 	font-weight: bold;
+}
+
+	//FOOTER
+.footer_logo{
+	height: 6vh;
+}
+
+.footer_icon{
+	font-size: 4vh;
+}
+
+.footer_icon:hover {
+	color: #D1019B;
 }
 
 //Christian's Legeplads//

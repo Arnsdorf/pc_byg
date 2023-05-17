@@ -17,7 +17,7 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-	<link rel="icon" href="images/buildmate_favicon_green.svg">
+	<link rel="icon" href="images/buildmate_favicon_pink.svg">
 
 	<!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
