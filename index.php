@@ -148,20 +148,20 @@
 <div class="insta-container shadow ">
     <div class="row m-0 p-0">
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-yan-krukau-9072305 kopier 2.webp"><div class="mask"></div></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-yan-krukau-9072216 kopier 2.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-ron-lach-7856023 kopier 2.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-lucie-liz-3165335 (1) kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_1.webp"><div class="mask"></div></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_3.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_4.webp"></div>
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-julia-m-cameron-4144450 kopier 2.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-artem-podrez-7773989 kopier 2.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-alena-darmel-7862582 kopier 2.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-garrett-morrow-682933 kopier 2.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_5.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_6.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_7.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_8.webp"></div>
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-yan-krukau-9072326 kopier.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-ron-lach-7848986 kopier.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-athena-2582928 kopier.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/pexels-alena-darmel-7862661 kopier.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_9.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_10.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_11.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_12.webp"></div>
 
     </div>
 </div>
