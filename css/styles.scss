@@ -404,7 +404,20 @@ padding-top: 15rem;
 	font-size: 2rem;
 }
 //-------Content--------//
-
+//-------about----------//
+.about-us{
+	background-color: #0c4128;
+}
+.about_card{
+}
+.about_card_omega{
+	background-color: #9b2222;
+}
+.img-about{
+	object-fit: cover;
+	height: 100%;
+}
+//-------about----------//
 @media screen and (min-width: 375px){
 	.scroll_icon{
 	padding-top: 6rem;
@@ -488,7 +501,7 @@ padding-top: 15rem;
 		padding-top: 8rem;
 	}
 	.button{
-		height: 4.7vh;
+		height: 4.3vh;
 		width: 9rem;
 	}
 	.soft-header-font{
@@ -513,12 +526,9 @@ padding-top: 15rem;
 	}
 	.button1{
 		background-image: linear-gradient(to right, #55ee92, #1d95e5);
-		height: 2.9rem;
+		height: 2.6rem;
 		width: 9rem;
 		transition: background-color 1s;
-	}
-	.ja{
-		bottom: 100rem;
 	}
 	.frontpage-text{
 		padding-top: 19rem;
