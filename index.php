@@ -17,6 +17,7 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <!-- Favicon -->
 	<link rel="icon" href="images/buildmate_favicon_pink.svg">
 
 	<!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
@@ -127,10 +128,10 @@
 </div>
 <!--Instabox-->
 
-<div class="instaheader pt-2 pt-md-0">
-    <div class="row j d-flex p-0 m-0 ">
+<div class="instaheader pt-md-0">
+    <div class="row ja d-flex p-0 m-0 ">
 
-            <div><h1 class="instafont text-center pt-5">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
+            <div><h1 class="instafont text-center">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
 
             <div class="icon_box1 icons position-relative justify-content-center d-flex pt-4">
                 <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front1"></i></a>

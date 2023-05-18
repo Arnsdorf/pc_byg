@@ -141,6 +141,10 @@ span{
 	color: #D1019B;
 }
 
+	//SUPPORT Styling
+
+
+
 //Christian's Legeplads//
 //-------scrool animation--------//
 .scrolldown {
@@ -310,6 +314,7 @@ padding-top: 15rem;
 //-------Content--------//
 .john{
 	background-color: #f8f8f8;
+	height: 3rem;
 }
 .john1{
 	position: relative;
@@ -418,7 +423,7 @@ padding-top: 15rem;
 }
 @media screen and (min-width: 768px){
 	.john{
-		height: 2rem;
+		height: 6rem;
 	}
 	.front-font{
 		font-size: 2.4rem;
@@ -471,7 +476,7 @@ padding-top: 15rem;
 @media screen and (min-width: 1440px){
 
 	.john{
-		height: 15rem;
+		height: 7rem;
 	}
 	.paragraph-font{
 		font-size: 1.2rem;
