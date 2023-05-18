@@ -57,7 +57,7 @@
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1"  >
+                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
