@@ -406,16 +406,41 @@ padding-top: 15rem;
 //-------Content--------//
 //-------about----------//
 .about-us{
-	background-color: #0c4128;
+	background-color: #000917;
+}
+.filler{
+	background-color: #273557;
+	height: 25vh;
+}
+.about_header{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.8rem;
+	color: #ffffff;
+}
+.about_subheader{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #ffffff;
 }
 .about_card{
+	border-radius: 100px ;
 }
 .about_card_omega{
-	background-color: #9b2222;
+	height: 80vh;
 }
 .img-about{
+	border-radius: 5px ;
 	object-fit: cover;
+	width: 100%;
 	height: 100%;
+}
+.intro-text{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #ffffff;
 }
 //-------about----------//
 @media screen and (min-width: 375px){
