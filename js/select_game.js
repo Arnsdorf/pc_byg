@@ -8,7 +8,7 @@ gameImages.forEach(image => {
             buildId: image.dataset.buildId,
         };
 
-        fetch(`api.php`, {
+        fetch(`gameselect_api.php`, {
             method: 'POST',
             body: JSON.stringify(data),
         }).then(response => response.json()).then(data => {

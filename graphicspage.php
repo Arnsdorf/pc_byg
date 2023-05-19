@@ -38,7 +38,7 @@ require "settings/init.php";
             <div class="pb-2 pt-2">
                 <div class="container">
 
-                    <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-md-between justify-content-center">
+                    <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-lg-between justify-content-center">
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
                             <img src="images/lowgraphic.png" alt="graphic_game" class="graphic_game shadow" data-build-class="1">
@@ -69,11 +69,11 @@ require "settings/init.php";
     </div>
     <div class="d-flex justify-content-center mt-3 mb-3 mt-sm-5 flex-sm-row flex-column">
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="gameselect.php">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" id="submit_btn">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="storagepage.php">Gå videre ></a>
     </div>
 </section>
 
+
 <script src="js/select_graphic.js"></script>
-<script src="js/graphic_select.js"></script>
 </body>
 </html>
