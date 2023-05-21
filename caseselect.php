@@ -54,7 +54,7 @@ require "settings/init.php";
         </div>
     </div>
     <div class="d-flex justify-content-center mt-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="storagepage.php">< Gå tilbage</a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="storageselect.php">< Gå tilbage</a>
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" id="submit_btn">Gå videre ></a>
     </div>
 </section>
