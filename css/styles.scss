@@ -245,16 +245,16 @@ span{
 .frontpage-text{
 padding-top: 15rem;
 }
-	.button_box{
-		padding-top: 1rem;
-	}
-	.scroll_icon{
-		padding-top: 15rem;
-	}
-	.icon_box{
-		height: 5vh;
-		padding-top: 3rem;
-	}
+.button_box{
+	padding-top: 1rem;
+}
+.scroll_icon{
+	padding-top: 15rem;
+}
+.icon_box{
+	height: 5vh;
+	padding-top: 3rem;
+}
 .front-font{
 	color: #fff7ff;
 	font-size: 1.7rem;
@@ -445,9 +445,26 @@ padding-top: 15rem;
 	font-size: 1.3rem;
 	color: #ffffff;
 }
-.padding-class{
-	padding-left: 12rem;
+.about-logo{
+	height: 8.5vh;
+	width: 22vw;
 }
+.about-logo-alt{
+	height: 8vh;
+	width: 22vw;
+}
+.about-rubrik{
+	font-family: Montserrat;
+	font-weight:bold;
+	color: #ffffff;
+}
+.about-text{
+	font-family: Montserrat;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
 //-------about----------//
 @media screen and (min-width: 375px){
 	.scroll_icon{
@@ -492,6 +509,15 @@ padding-top: 15rem;
 	}
 	.instabox{
 		height: 20vh;
+	}
+	.about-text{
+		padding: 0 5rem 0 5rem;
+	}
+	.about_header{
+		font-size: 2rem;
+	}
+	.about_subheader{
+		font-size: 1.4rem;
 	}
 }
 @media screen and (min-width: 1024px){
@@ -563,5 +589,11 @@ padding-top: 15rem;
 	}
 	.frontpage-text{
 		padding-top: 19rem;
+	}
+	.about_header{
+		font-size: 2.2rem;
+	}
+	.about-text{
+		font-size: 1.3rem;
 	}
 }

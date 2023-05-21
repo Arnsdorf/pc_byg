@@ -36,7 +36,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<div class="container-fluid about-us ">
+<div class="container-fluid about-us">
     <div class="row justify-content-center d-flex ">
 
         <div class="pt-5 text-center"><h1 class="about_header">Hvem er <span>BuildMate</span></h1></div>
@@ -47,51 +47,80 @@
         </div>
 
 
-        <div class="d-none d-md-block ">
-            <div class="d-flex justify-content-evenly pt-5 pb-5">
+            <div class="d-none d-md-block ">
+                <div class="d-flex justify-content-evenly pt-5 pb-5">
 
-                <div class="text-center">
-                    <img class="mx-auto pb-3" src="images/object-group-solid.png">
-                    <h2 class=" intro-text">Designer</h2>
+                    <div class="text-center">
+                        <img class="mx-auto pb-3" src="images/object-group-solid.png">
+                        <h2 class="intro-text">Designer</h2>
+                    </div>
+
+                    <div class="text-center">
+                        <img class="mx-auto pb-3" src="images/code-solid.png">
+                        <h2 class="intro-text">Koder</h2>
+                    </div>
+
+                    <div class="text-center">
+                        <img class="mx-auto pb-3" src="images/computer-solid.png">
+                        <h2 class="intro-text">Computer <br> bygning</h2>
+                    </div>
+
                 </div>
-
-                <div class="text-center">
-                    <img class="mx-auto pb-3" src="images/code-solid.png">
-                    <h2 class=" intro-text">Koder</h2>
-                </div>
-
-                <div class="text-center">
-                    <img class="mx-auto pb-3" src="images/computer-solid.png">
-                    <h2 class="intro-text">Computer <br> bygning</h2>
-                </div>
-
             </div>
-        </div>
 
 
         <div class="p-0 m-0 shadow col-10 d-md-none mt-5 justify-content-center">
             <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7925.jpg"> </div>
         </div>
 
-        <div class="justify-content-center d-flex pb-3 pt-5 d-md-none"><img src="images/object-group-solid.png"></div>
+        <div class="justify-content-center d-flex pb-3 pt-5 d-md-none"><img class="about-logo" src="images/object-group-solid.png"></div>
+        <div class="text-center d-md-none"><h2 class="intro-text">Designer</h2></div>
 
         <div class="p-0 m-0 shadow col-10 d-md-none  mt-5 mb-5 justify-content-center">
             <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7935.jpg"> </div>
         </div>
 
-        <div class="justify-content-center d-flex pb-5 d-md-none"><img src="images/code-solid.png"></div>
+        <div class="justify-content-center d-flex pb-2 d-md-none"><img class="about-logo" src="images/code-solid.png"></div>
+        <div class="text-center d-md-none"><h2 class="intro-text">Koder</h2></div>
 
-        <div class="p-0 m-0 shadow col-10 d-md-none mb-5 justify-content-center">
+        <div class="p-0 m-0 shadow col-10 d-md-none mb-5 justify-content-center mt-5">
             <div class="about_card"><img class="img-about" src="ABOUT-IMG/IMG_7977.jpg"> </div>
         </div>
 
-        <div class="justify-content-center d-flex pb-5 d-md-none"><img src="images/computer-solid.png"></div>
+        <div class="justify-content-center d-flex pb-2 d-md-none"><img class="about-logo-alt" src="images/computer-solid.png"></div>
+        <div class="text-center d-md-none pb-5"><h2 class="intro-text rubrik3">Computer <br> bygning</h2></div>
 
     </div>
 </div>
 
-<div class="filler">
+<div class="filler ">
 
+</div>
+
+<div class="about-us m-0 p-0">
+    <div class="row m-0 p-0">
+
+        <div class="ps-5 pe-5">
+            <div class="pt-4 about-text">
+                <h2 class="about-rubrik">Computere skal være for <span>alle</span></h2>
+            </div>
+            <div>
+                <p class="pt-4 pb-5 about-brød about-text">Computerverden har altid været for de erfarne brugere, som har brugt flere år på at følge med
+                    i de nyeste computerdele og andre komponenter. Vi hos BuildMate mener alle skal have
+                    chancen for bygge deres drømme computer, uden at bruge flere år på at lære hvordan man
+                    enligt bygger en computer.
+                    <br><br>
+                    Vores speciale er gaming computer! som præcis passer dine gaming behov, hvor vi fokusere på
+                    hvad der rent faktisk betyder noget for dig og dine behov. </p>
+            </div>
+        </div>
+
+        <div class="d-flex position-relative justify-content-center pb-5">
+            <a class="text-decoration-none" href="#"><div class="button1 rounded-2 justify-content-center">
+                    <span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
+        </div>
+
+    </div>
 </div>
 
 
