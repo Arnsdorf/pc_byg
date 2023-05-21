@@ -42,16 +42,15 @@ require "settings/init.php";
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-center">
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center">
-                            <img src="images/lagring_lav.png" alt="storage_low" class="storage" data-build-class="1">
+                            <img src="images/lagring_lav.png" alt="storage_low" class="storage" data-type-id="4">
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center">
-                            <img src="images/lagring_middel.png" alt="storage_mid" class="storage" data-build-class="2">
-
+                            <img src="images/lagring_middel.png" alt="storage_mid" class="storage" data-type-id="5">
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center">
-                            <img src="images/lagring_stor.png" alt="storage_high" class="storage" data-build-class="3">
+                            <img src="images/lagring_stor.png" alt="storage_high" class="storage" data-type-id="6">
                         </div>
 
                     </div>
@@ -65,6 +64,8 @@ require "settings/init.php";
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" id="submit_btn">Gå videre ></a>
     </div>
 </section>
+
+<script src="js/select_storage.js"></script>
 
 </body>
 </html>

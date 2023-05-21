@@ -69,7 +69,7 @@ require "settings/init.php";
     </div>
     <div class="d-flex justify-content-center mt-3 mb-3 mt-sm-5 flex-sm-row flex-column">
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="gameselect.php">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="storagepage.php">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="storageselect.php">Gå videre ></a>
     </div>
 </section>
 

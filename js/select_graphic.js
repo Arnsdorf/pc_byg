@@ -33,6 +33,8 @@ graphicImages.forEach(image => {
             body: JSON.stringify(data),
         }).then(response => response.json()).then(data => {
             console.log(data);
+            localStorage.setItem('selectedGame', JSON.stringify(data));
         }).catch(error => console.error(error));
+
     });
 });
