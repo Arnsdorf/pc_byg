@@ -46,20 +46,27 @@
             <div class="about_card_omega"> <img class="img-about" src="images/SquadAnimationgif.gif"> </div>
         </div>
 
+
         <div class="d-none d-md-block ">
-            <div class="justify-content-center justify-content-evenly d-flex pt-5 pb-5">
-                <img class="" src="images/object-group-solid.png">
-                <img class="" src="images/code-solid.png">
-                <img class="" src="images/computer-solid.png">
+            <div class="d-flex justify-content-evenly pt-5 pb-5">
+
+                <div class="text-center">
+                    <img class="mx-auto pb-3" src="images/object-group-solid.png">
+                    <h2 class=" intro-text">Designer</h2>
+                </div>
+
+                <div class="text-center">
+                    <img class="mx-auto pb-3" src="images/code-solid.png">
+                    <h2 class=" intro-text">Koder</h2>
+                </div>
+
+                <div class="text-center">
+                    <img class="mx-auto pb-3" src="images/computer-solid.png">
+                    <h2 class="intro-text">Computer <br> bygning</h2>
+                </div>
+
             </div>
         </div>
-
-        <div class="justify-content-center d-flex justify-content-evenly ps-5 d-none">
-            <h2 class=" intro-text">Designer</h2>
-            <h2 class=" intro-text">Koder</h2>
-            <h2 class=" intro-text">Computer-bygning</h2>
-        </div>
-
 
 
         <div class="p-0 m-0 shadow col-10 d-md-none mt-5 justify-content-center">
