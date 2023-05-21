@@ -40,7 +40,61 @@
     <!--NAVBAR-->
     <?php include 'includes/navbar.php'?>
 
+    <!--Main Text-->
+    <div class="container mt-5">
 
+        <h2>Har du oplevede et problem med din PC?</h2>
+        <p>Du kan udfylde en support-ticket, og så svarer vi hurtigst muligt. Alternativt kan du kontakte os direkte.</p>
+
+    </div>
+
+    <br>
+
+    <!--Support Form & Contact Info-->
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+
+        <!--Support Form-->
+        <div class="">
+
+            <form action="">
+                <label for="name">Navn:</label><br>
+                <input type="text" id="name" name="name" value=""><br><br>
+
+                <label for="email">E-Mail:</label><br>
+                <input type="text" id="email" name="email" value=""><br><br>
+
+                <label for="email"> Forklar dit problem: <br>
+                    <textarea rows = "5" cols = "50" name = "description"></textarea>
+                </label><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+        <!--Contact Info-->
+        <div class="w-25 bg-dark text-center">
+
+            <br>
+
+            <i class="bi bi-envelope-fill contact_icon"></i>
+            <p>support@buildmate.dk</p>
+
+            <br>
+
+            <i class="bi bi-telephone-fill contact_icon"></i>
+            <p>+45 12 34 56 78</p>
+
+            <br>
+
+            <i class="bi bi-clock-fill contact_icon"></i>
+            <p>MAN-FRE: kl. 9-17</p>
+
+            <br>
+
+        </div>
+
+    </div>
 
     <!--FOOTER-->
     <?php include 'includes/footer.php'?>

@@ -5,7 +5,7 @@
 
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg opasity ">
+<nav class="navbar navbar-expand-lg navbar-dark opasity">
     <div class="container-fluid ">
         <a class="navbar-brand" href="index.php">
             <img src="images/buildmate_logo_light.svg" class="navbar_logo" alt="Buildmate logo">
@@ -18,7 +18,7 @@
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5 active" aria-current="page" href="index.php">Forside</a>
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="gameselect.php">Byg en PC</a>
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="#">Om os</a>
-                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="#">Support</a>
+                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="support.php">Support</a>
             </div>
         </div>
     </div>
