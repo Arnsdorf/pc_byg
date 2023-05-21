@@ -94,7 +94,7 @@
     <div class="card_box mt-5">
         <div class="row gap-5 p-0 m-0 justify-content-center ">
 
-            <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 ">
+            <div class="card_front shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3">
                 <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/desktop-solid.png"></div>
                 <div class="card-rubrik"><h3 class=" ps-2 pe-2 pt-5 rubrik1 text-center">Få en forståelse for din PC</h3></div>
                 <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">Hos BuildMate tilbyder vi en nemmere måde at bygge din drømme-PC på, samtidig med at man får en bedre forståelse for den maskine man har samlet.</h6></div>
@@ -111,6 +111,7 @@
                 <div class="card-rubrik"><h3 class="pt-4 rubrik3 text-center">Dine spil, dine behov</h3></div>
                 <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">BuildMate computere giver dig friheden til at udforske gamingverden, uden at blive hæmmede af en computer som ikke passer til hvad man har brug for.</h6></div>
             </div>
+
             <!-----button1----->
             <div class="button_box1 d-flex position-relative justify-content-center pb-5">
                 <a class="text-decoration-none" href="#"><div class="button1 rounded-2 justify-content-center"><span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
@@ -129,7 +130,7 @@
 <!--Instabox-->
 
 <div class="instaheader pt-md-0">
-    <div class="row ja d-flex p-0 m-0 ">
+    <div class="row d-flex p-0 m-0 ">
 
             <div><h1 class="instafont text-center">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
 
