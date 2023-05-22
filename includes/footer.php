@@ -9,21 +9,23 @@
 <div class="container-fluid bg-black text-center h-25">
 
     <div class="py-5">
-        <a href="../index.php">
-            <img src="../images/buildmate_logo_light.svg" class="footer_logo mx-auto" alt="Buildmate logo">
+        <a href="/index.php">
+            <img src="/images/buildmate_logo_light.svg" class="footer_logo mx-auto" alt="Buildmate logo">
         </a>
     </div>
 
     <div class="d-flex justify-content-center">
-        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-facebook"></i></a>
-        <a class="text-decoration-none text-white footer_icon px-5 px-lg-4" href="#" target="_blank"> <i class="bi bi-instagram"></i></a>
-        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-linkedin"></i></a>
+        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-facebook footer_hover"></i></a>
+        <a class="text-decoration-none text-white footer_icon px-4" href="#" target="_blank"> <i class="bi bi-instagram footer_hover"></i></a>
+        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-linkedin footer_hover"></i></a>
     </div>
 
-    <p class="pt-4 pt-lg-2">Copyright Buildmate 2023</p>
+    <div class="pt-2 pb-3">
+        <p>Copyright Buildmate 2023</p>
+    </div>
 
 </div>
 
 
 <!--Script for Bootstrap-->
-<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

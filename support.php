@@ -37,10 +37,83 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
+<!--BACKGROUND-->
+<div class="support_bg pb-5">
+
     <!--NAVBAR-->
     <?php include 'includes/navbar.php'?>
 
+    <!--CONTENT PADDING-->
+    <div class="px-3 px-md-0">
 
+    <!--Support Form & Contact Info-->
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-evenly">
+
+        <!--Support Form-->
+        <div class="text-center mb-5 mb-lg-0">
+
+            <!--Main Text-->
+            <div class="container support_text text-start mt-5 mb-3">
+
+                <h2 class="mb-2">Har du oplevede et problem med din PC?</h2>
+                <p>Du kan udfylde en support-ticket, og så svarer vi hurtigst muligt. Alternativt kan du kontakte os direkte.</p>
+
+            </div>
+
+            <!--Form Inputs-->
+            <div>
+
+                <form action="">
+
+                    <label for="name"></label>
+                    <input class="form_input" type="text" id="name" name="name" placeholder="Navn" value="">
+
+                    <br>
+
+                    <label for="email"></label>
+                    <input class="form_input" type="text" id="email" name="email" placeholder="E-Mail" value="">
+
+                    <br><br>
+
+                    <label for="email">
+                        <textarea class="form_textarea" rows="5" cols="35" name="description" placeholder="Forklar dit problem"></textarea>
+                    </label><br><br>
+
+                    <input class="form_button rounded-2" type="submit" value="Send">
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!--Contact Info-->
+        <div class="contact_box text-center">
+
+            <br>
+
+            <i class="bi bi-envelope-fill contact_icon"></i>
+            <p>support@buildmate.dk</p>
+
+            <br>
+
+            <i class="bi bi-telephone-fill contact_icon"></i>
+            <p>+45 12 34 56 78</p>
+
+            <br>
+
+            <i class="bi bi-clock-fill contact_icon"></i>
+            <p>MAN-FRE: kl. 9-17</p>
+
+            <br>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
 
     <!--FOOTER-->
     <?php include 'includes/footer.php'?>

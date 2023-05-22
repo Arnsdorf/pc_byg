@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	background-color: #022741;
 	font-family: Montserrat, sans-serif;
+	color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,7 +71,7 @@ img {
 }
 
 span{
-	color: #CD38B7;
+	color: #D1019B;
 }
 
 .case{
@@ -111,12 +112,17 @@ span{
 
 //Sid's Legeplads//
 
-	//NAVBAR
-.opasity{
+	//NAVBAR Styling
+.navbar_gradient{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(121, 121, 121, 0.04));
 }
+
 .navbar_logo{
 	height: 4vh;
+
+	@media screen and (min-width: 768px){
+		height: 3vh;
+	}
 }
 
 .navbar a{
@@ -128,21 +134,83 @@ span{
 	font-weight: bold;
 }
 
-	//FOOTER
+	//FOOTER Styling
 .footer_logo{
-	height: 6vh;
+	height: 5vh;
+
+	@media screen and (min-width: 768px){
+		height: 4vh;
+	}
 }
 
 .footer_icon{
-	font-size: 4vh;
+	font-size: 5vh;
+
+	@media screen and (min-width: 768px){
+		font-size: 3vh;
+	}
 }
 
-.footer_icon:hover {
+.footer_hover:hover {
 	color: #D1019B;
 }
 
 	//SUPPORT Styling
+.support_bg{
+	background-image: linear-gradient(to bottom, #01162A, #06557A);
+	min-height: 80vh;
+}
 
+.support_text{
+	width: 22rem;
+}
+
+.form_input{
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+	height: 35px;
+}
+
+.form_textarea{
+	width: 100%;
+	resize: none;
+	padding: 15px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+	height: 150px;
+}
+
+.form_button{
+	color: #fff7ff;
+	font-weight: bold;
+	background-image: linear-gradient(to right, #55ee92, #1d95e5);
+	height: 40px;
+	width: 8rem;
+	transition: background-color 1s;
+	border: none;
+}
+
+.form_button:hover{
+	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
+	transform: scale(1.03);
+	transition: 100ms;
+}
+
+.contact_box{
+	height: 20rem;
+	width: 18rem;
+	border-radius: 15px;
+	background-color: #052239;
+	filter: drop-shadow(0px 2px 3px #090607);
+}
+
+.contact_icon{
+	font-size: 2rem;
+}
 
 
 //Christian's Legeplads//
@@ -242,16 +310,16 @@ span{
 .frontpage-text{
 padding-top: 15rem;
 }
-	.button_box{
-		padding-top: 1rem;
-	}
-	.scroll_icon{
-		padding-top: 15rem;
-	}
-	.icon_box{
-		height: 5vh;
-		padding-top: 3rem;
-	}
+.button_box{
+	padding-top: 1rem;
+}
+.scroll_icon{
+	padding-top: 15rem;
+}
+.icon_box{
+	height: 5vh;
+	padding-top: 3rem;
+}
 .front-font{
 	color: #fff7ff;
 	font-size: 1.7rem;
@@ -264,33 +332,20 @@ padding-top: 15rem;
 	color: #fff7ff;
 	font-family: Montserrat;
 }
-.button{
+.button_tilbage{
 	background-image: linear-gradient(to right, #55ee92, #1d95e5);
-	height: 2rem;
-	width: 6rem;
+	height: 2.7rem;
+	width: 8rem;
 	transition: background-color 1s;
 }
-.button1{
-	background-image: linear-gradient(to right, #55ee92, #1d95e5);
-	height: 2rem;
-	width: 7rem;
-	transition: background-color 1s;
-}
-.knap-text{
+.tilbage-text{
 	color: #ffffff;
 	font-family: Montserrat;
 	font-weight: bold;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
+	padding-top: 12px;
 }
-.knap-text:hover{
-	color: #41ffe2;
-}
-.button:hover, .gradient-hover-effect:focus{
-	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
-	transform: scale(1.03);
-	transition: 100ms;
-}
-.button1:hover, .gradient-hover-effect:focus{
+.button_tilbage:hover, .gradient-hover-effect:focus{
 	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
 	transform: scale(1.03);
 	transition: 100ms;
@@ -300,13 +355,13 @@ padding-top: 15rem;
 	color: #ffffff;
 }
 .icon_front1{
-	color: #ee55cf;
+	color: #D1019B;
 }
 .icon_front1:hover{
 	color: #17e194;
 }
 .icon_front:hover{
-	color: #ee55cf;
+	color: #D1019B;
  }
 .tag:hover{
 	color: #2ceca9;
@@ -323,6 +378,10 @@ padding-top: 15rem;
 .instaheader{
 	background-color: #f8f8f8;
 	height: 20vh;
+}
+.instaheader1{
+	background-color: #f8f8f8;
+	height: 25vh;
 }
 .insta-container{
 	background-color: #000000;
@@ -403,6 +462,20 @@ padding-top: 15rem;
 .icons{
 	font-size: 2rem;
 }
+.card-cool{
+	transition: ease-out 100ms;
+}
+.card-cool:hover{
+	transform: scale(1.08);
+	transition: ease-in 100ms;
+	background-image: linear-gradient( to right top, rgb(24, 24, 24), #020202);
+}
+.position-random{
+
+
+}
+
+
 //-------Content--------//
 //-------about----------//
 .about-us{
@@ -442,6 +515,29 @@ padding-top: 15rem;
 	font-size: 1.3rem;
 	color: #ffffff;
 }
+.about-rubrik{
+	font-family: Montserrat;
+	font-weight:bold;
+	color: #ffffff;
+}
+.about-text{
+	font-family: Montserrat;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+.button1{
+	background-image: linear-gradient(to right, #55ee92, #1d95e5);
+	height: 6vh;
+	width: 7rem;
+	transition: background-color 1s;
+}
+.knap-text{
+	font-weight: bold;
+	color: #fff7ff;
+}
+
+
 //-------about----------//
 @media screen and (min-width: 375px){
 	.scroll_icon{
@@ -487,6 +583,15 @@ padding-top: 15rem;
 	.instabox{
 		height: 20vh;
 	}
+	.about-text{
+		padding: 0 6rem 0 6rem;
+	}
+	.about_header{
+		font-size: 2rem;
+	}
+	.about_subheader{
+		font-size: 1.4rem;
+	}
 }
 @media screen and (min-width: 1024px){
 	.front-font{
@@ -512,7 +617,9 @@ padding-top: 15rem;
 	}
 }
 @media screen and (min-width: 1440px){
-
+	.about-text{
+		padding: 0 19rem 0 10rem;
+	}
 	.john{
 		height: 7rem;
 	}
@@ -556,6 +663,12 @@ padding-top: 15rem;
 		transition: background-color 1s;
 	}
 	.frontpage-text{
-		padding-top: 19rem;
+		padding-top: 16rem;
+	}
+	.about_header{
+		font-size: 2.2rem;
+	}
+	.about-text{
+		font-size: 1.3rem;
 	}
 }
