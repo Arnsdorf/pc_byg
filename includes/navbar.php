@@ -17,7 +17,7 @@
             <div class="navbar-nav text-center ms-lg-auto">
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5 active" aria-current="page" href="index.php">Forside</a>
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="gameselect.php">Byg en PC</a>
-                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="#">Om os</a>
+                <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="about.php">Om os</a>
                 <a class="nav-link my-2 my-lg-0 mx-lg-4 fs-5" href="support.php">Support</a>
             </div>
         </div>

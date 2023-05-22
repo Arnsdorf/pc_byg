@@ -15,9 +15,9 @@
     </div>
 
     <div class="d-flex justify-content-center">
-        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-facebook"></i></a>
-        <a class="text-decoration-none text-white footer_icon px-4" href="#" target="_blank"> <i class="bi bi-instagram"></i></a>
-        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-linkedin"></i></a>
+        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-facebook footer_hover"></i></a>
+        <a class="text-decoration-none text-white footer_icon px-4" href="#" target="_blank"> <i class="bi bi-instagram footer_hover"></i></a>
+        <a class="text-decoration-none text-white footer_icon" href="#" target="_blank"> <i class="bi bi-linkedin footer_hover"></i></a>
     </div>
 
     <div class="pt-2 pb-3">
@@ -28,4 +28,4 @@
 
 
 <!--Script for Bootstrap-->
-<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

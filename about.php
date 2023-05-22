@@ -10,14 +10,14 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>BuildMate</title>
+    <title>Om os</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link rel="icon" href="images/buildmate_favicon_green.svg">
+    <link rel="icon" href="images/buildmate_favicon_pink.svg">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -38,6 +38,9 @@
 
 <div class="container-fluid about-us">
     <div class="row justify-content-center d-flex ">
+
+        <!--NAVBAR-->
+        <?php include 'includes/navbar.php'?>
 
         <div class="pt-5 text-center"><h1 class="about_header">Hvem er <span>BuildMate</span></h1></div>
         <div class="pt-3 pb-2 text-center mb-lg-4"><h5 class="about_subheader">Hvem er BuildMate?</h5></div>
@@ -111,7 +114,7 @@
                     chancen for at bygge deres drømmecomputer uden at skulle bruge en hel menneskealder på at lære, hvordan man
                     præcist bygger en computer.
                     <br><br>
-                    Vores speciale er gamingcomputere! Vi skræddersyr dem præcist efter dine gamingbehov,
+                    Vores speciale er gaming computere! Vi skræddersyr dem præcist efter dine gaming behov,
                     hvor vi fokuserer på det, der faktisk betyder noget for dig og dine behov. </p>
             </div>
         </div>
@@ -124,7 +127,8 @@
     </div>
 </div>
 
-
+<!--FOOTER-->
+<?php include 'includes/footer.php'?>
 
 
 <script src="js/forside.js"></script>

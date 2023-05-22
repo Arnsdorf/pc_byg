@@ -71,7 +71,7 @@ img {
 }
 
 span{
-	color: #CD38B7;
+	color: #D1019B;
 }
 
 .case{
@@ -151,7 +151,7 @@ span{
 	}
 }
 
-.footer_icon:hover {
+.footer_hover:hover {
 	color: #D1019B;
 }
 
@@ -355,13 +355,13 @@ padding-top: 15rem;
 	color: #ffffff;
 }
 .icon_front1{
-	color: #ee55cf;
+	color: #D1019B;
 }
 .icon_front1:hover{
 	color: #17e194;
 }
 .icon_front:hover{
-	color: #ee55cf;
+	color: #D1019B;
  }
 .tag:hover{
 	color: #2ceca9;
@@ -526,6 +526,18 @@ padding-top: 15rem;
 	color: #ffffff;
 	font-size: 1.2rem;
 }
+.button1{
+	background-image: linear-gradient(to right, #55ee92, #1d95e5);
+	height: 6vh;
+	width: 7rem;
+	transition: background-color 1s;
+}
+.knap-text{
+	font-weight: bold;
+	color: #fff7ff;
+}
+
+
 //-------about----------//
 @media screen and (min-width: 375px){
 	.scroll_icon{
