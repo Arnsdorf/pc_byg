@@ -25,9 +25,13 @@ require "settings/init.php";
 </head>
 <body>
 
+<!--NAVBAR-->
+<?php include 'includes/navbar.php'?>
+
+
 <!-- pc-byg -->
 <section>
-    <div class="pt-5">
+    <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg <span>lagring.</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
             <span>Lagring</span> omhandler den ledige plads på din computer
@@ -61,7 +65,7 @@ require "settings/init.php";
     </div>
     <div class="d-flex justify-content-center mt-3 mb-3 mt-sm-5 flex-sm-row flex-column">
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="graphicspage.php">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" id="submit_btn">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="caseselect.php">Gå videre ></a>
     </div>
 </section>
 
