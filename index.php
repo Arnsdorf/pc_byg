@@ -61,7 +61,7 @@
         <a class="text-decoration-none" href="#"><div class="button_tilbage rounded-1 justify-content-center">
                 <span class="justify-content-center d-flex tilbage-text">Byg en pc</span></div></a>
     </div>
-    <!-- Forside knap-end --><
+    <!-- Forside knap-end -->
     <div class="d-flex justify-content-center scroll_icon position-relative ">
         <div class='scrolldown'>
             <div class="chevrons ">
@@ -88,8 +88,8 @@
 <div class="john1 m-0 p-0">
 
     <div class="text_body_font_box ">
-        <div class="header-font-box justify-content-center d-flex"><h1 class="header-font text-center">Træt af at computer-bygning kun er <br> for erfarne brugere?</h1></div>
-        <div class="soft-header-box justify-content-center d-flex pt-4 text-center"><h3 class="soft-header-font">Introducerer <span class="">en bedre måde at bygge på</span>!</h3></div>
+        <div class="header-font-box justify-content-center d-flex"><h1 class="header-font text-center ps-1 pe-1 ps-md-0 pe-md-0">Træt af at computer-bygning kun er <br> for erfarne brugere?</h1></div>
+        <div class="soft-header-box justify-content-center d-flex pt-4 text-center"><h3 class="soft-header-font ps-3 pe-3 ps-md-0 pe-md-0">Introducerer <span class="">en bedre måde at bygge på</span>!</h3></div>
     </div>
 
     <div class="card_box mt-5">

@@ -119,14 +119,17 @@
             </div>
         </div>
 
-        <div class="d-flex position-relative justify-content-center pb-5">
-            <a class="text-decoration-none" href="#"><div class="button1 rounded-2 justify-content-center">
-                    <span class="justify-content-center d-flex p-2 knap-text position-relative">Byg en pc</span></div></a>
+        <div class="pt-5 mt-5 d-flex position-relative justify-content-center pb-5">
+            <a class="text-decoration-none" href="#"><div class="button_tilbage rounded-1 justify-content-center">
+                    <span class="justify-content-center d-flex tilbage-text">Byg en pc</span></div></a>
         </div>
 
     </div>
 </div>
 
+<div class="filler ">
+
+</div>
 <!--FOOTER-->
 <?php include 'includes/footer.php'?>
 
