@@ -149,20 +149,20 @@
     <div class="row m-0 p-0">
 
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_1.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_2.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_3.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_4.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_1.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_2.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_3.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_4.webp"></a></div>
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_5.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_6.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_7.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_8.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_5.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_6.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_7.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_8.webp"></a></div>
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_9.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_10.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_11.webp"></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><img class="instaimage" src="insta/insta_12.webp"></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_9.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_10.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_11.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_12.webp"></a></div>
 
     </div>
 </div>
