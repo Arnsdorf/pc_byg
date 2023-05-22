@@ -114,7 +114,7 @@ span{
 
 	//NAVBAR Styling
 .navbar_gradient{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(121, 121, 121, 0.04));
+	background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(121, 121, 121, 0));
 }
 
 .navbar_logo{
@@ -470,12 +470,6 @@ padding-top: 15rem;
 	transition: ease-in 100ms;
 	background-image: linear-gradient( to right top, rgb(24, 24, 24), #020202);
 }
-.position-random{
-
-
-}
-
-
 //-------Content--------//
 //-------about----------//
 .about-us{
@@ -483,7 +477,7 @@ padding-top: 15rem;
 }
 .filler{
 	background-color: #273557;
-	height: 25vh;
+	height: 20vh;
 }
 .about_header{
 	font-family: Montserrat;
@@ -536,8 +530,15 @@ padding-top: 15rem;
 	font-weight: bold;
 	color: #fff7ff;
 }
-
-
+.koder{
+	color: #6870f2;
+}
+.designer{
+	color: #00e1bf;
+}
+.computer{
+	color: #990e83;
+}
 //-------about----------//
 @media screen and (min-width: 375px){
 	.scroll_icon{
