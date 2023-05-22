@@ -51,19 +51,20 @@
                 <div class="d-flex justify-content-evenly pt-5 pb-5">
 
                     <div class="text-center">
-                        <img class="mx-auto pb-3" src="images/object-group-solid.png">
-                        <h2 class="intro-text">Designer</h2>
+                        <img class="mx-auto pb-3" src="images/code-solid.png">
+                        <h2 class="intro-text">Koder</h2>
                     </div>
 
                     <div class="text-center">
-                        <img class="mx-auto pb-3" src="images/code-solid.png">
-                        <h2 class="intro-text">Koder</h2>
+                        <img class="mx-auto pb-3" src="images/object-group-solid.png">
+                        <h2 class="intro-text">Designer</h2>
                     </div>
 
                     <div class="text-center">
                         <img class="mx-auto pb-3" src="images/computer-solid.png">
                         <h2 class="intro-text">Computer <br> bygning</h2>
                     </div>
+
 
                 </div>
             </div>
@@ -73,14 +74,14 @@
             <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7925.jpg"> </div>
         </div>
 
-        <div class="justify-content-center d-flex pb-3 pt-5 d-md-none"><img class="about-logo" src="images/object-group-solid.png"></div>
+        <div class="justify-content-center d-flex pb-3 pt-5 d-md-none"><img class="" src="images/object-group-solid.png"></div>
         <div class="text-center d-md-none"><h2 class="intro-text">Designer</h2></div>
 
         <div class="p-0 m-0 shadow col-10 d-md-none  mt-5 mb-5 justify-content-center">
             <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7935.jpg"> </div>
         </div>
 
-        <div class="justify-content-center d-flex pb-2 d-md-none"><img class="about-logo" src="images/code-solid.png"></div>
+        <div class="justify-content-center d-flex pb-2 d-md-none"><img class="" src="images/code-solid.png"></div>
         <div class="text-center d-md-none"><h2 class="intro-text">Koder</h2></div>
 
         <div class="p-0 m-0 shadow col-10 d-md-none mb-5 justify-content-center mt-5">
@@ -102,16 +103,16 @@
 
         <div class="ps-5 pe-5">
             <div class="pt-4 about-text">
-                <h2 class="about-rubrik">Computere skal være for <span>alle</span></h2>
+                <h2 class="about-rubrik pt-5">Computere skal være for <span>alle</span></h2>
             </div>
             <div>
-                <p class="pt-4 pb-5 about-brød about-text">Computerverden har altid været for de erfarne brugere, som har brugt flere år på at følge med
-                    i de nyeste computerdele og andre komponenter. Vi hos BuildMate mener alle skal have
-                    chancen for bygge deres drømme computer, uden at bruge flere år på at lære hvordan man
-                    enligt bygger en computer.
+                <p class="pt-4 pb-5 about-text">Computerverden har altid været for de erfarne brugere, som har brugt adskillige
+                    år på at følge med i de nyeste computerdele og andre komponenter. Vi hos BuildMate mener, at alle skal have
+                    chancen for at bygge deres drømmecomputer uden at skulle bruge en hel menneskealder på at lære, hvordan man
+                    præcist bygger en computer.
                     <br><br>
-                    Vores speciale er gaming computer! som præcis passer dine gaming behov, hvor vi fokusere på
-                    hvad der rent faktisk betyder noget for dig og dine behov. </p>
+                    Vores speciale er gamingcomputere! Vi skræddersyr dem præcist efter dine gamingbehov,
+                    hvor vi fokuserer på det, der faktisk betyder noget for dig og dine behov. </p>
             </div>
         </div>
 

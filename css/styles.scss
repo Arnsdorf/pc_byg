@@ -332,33 +332,20 @@ padding-top: 15rem;
 	color: #fff7ff;
 	font-family: Montserrat;
 }
-.button{
+.button_tilbage{
 	background-image: linear-gradient(to right, #55ee92, #1d95e5);
-	height: 2rem;
-	width: 6rem;
+	height: 2.7rem;
+	width: 8rem;
 	transition: background-color 1s;
 }
-.button1{
-	background-image: linear-gradient(to right, #55ee92, #1d95e5);
-	height: 2rem;
-	width: 7rem;
-	transition: background-color 1s;
-}
-.knap-text{
+.tilbage-text{
 	color: #ffffff;
 	font-family: Montserrat;
 	font-weight: bold;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
+	padding-top: 12px;
 }
-.knap-text:hover{
-	color: #41ffe2;
-}
-.button:hover, .gradient-hover-effect:focus{
-	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
-	transform: scale(1.03);
-	transition: 100ms;
-}
-.button1:hover, .gradient-hover-effect:focus{
+.button_tilbage:hover, .gradient-hover-effect:focus{
 	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
 	transform: scale(1.03);
 	transition: 100ms;
@@ -391,6 +378,10 @@ padding-top: 15rem;
 .instaheader{
 	background-color: #f8f8f8;
 	height: 20vh;
+}
+.instaheader1{
+	background-color: #f8f8f8;
+	height: 25vh;
 }
 .insta-container{
 	background-color: #000000;
@@ -471,6 +462,20 @@ padding-top: 15rem;
 .icons{
 	font-size: 2rem;
 }
+.card-cool{
+	transition: ease-out 100ms;
+}
+.card-cool:hover{
+	transform: scale(1.08);
+	transition: ease-in 100ms;
+	background-image: linear-gradient( to right top, rgb(24, 24, 24), #020202);
+}
+.position-random{
+
+
+}
+
+
 //-------Content--------//
 //-------about----------//
 .about-us{
@@ -510,14 +515,6 @@ padding-top: 15rem;
 	font-size: 1.3rem;
 	color: #ffffff;
 }
-.about-logo{
-	height: 8.5vh;
-	width: 22vw;
-}
-.about-logo-alt{
-	height: 8vh;
-	width: 22vw;
-}
 .about-rubrik{
 	font-family: Montserrat;
 	font-weight:bold;
@@ -529,7 +526,6 @@ padding-top: 15rem;
 	color: #ffffff;
 	font-size: 1.2rem;
 }
-
 //-------about----------//
 @media screen and (min-width: 375px){
 	.scroll_icon{
@@ -576,7 +572,7 @@ padding-top: 15rem;
 		height: 20vh;
 	}
 	.about-text{
-		padding: 0 5rem 0 5rem;
+		padding: 0 6rem 0 6rem;
 	}
 	.about_header{
 		font-size: 2rem;
@@ -609,7 +605,9 @@ padding-top: 15rem;
 	}
 }
 @media screen and (min-width: 1440px){
-
+	.about-text{
+		padding: 0 19rem 0 10rem;
+	}
 	.john{
 		height: 7rem;
 	}
@@ -653,7 +651,7 @@ padding-top: 15rem;
 		transition: background-color 1s;
 	}
 	.frontpage-text{
-		padding-top: 19rem;
+		padding-top: 16rem;
 	}
 	.about_header{
 		font-size: 2.2rem;
