@@ -1,7 +1,6 @@
 <?php
 require "settings/init.php";
 
-
 ?>
 
 
@@ -9,6 +8,7 @@ require "settings/init.php";
 <html lang="da">
 <head>
     <meta charset="utf-8">
+
 
     <title>Din anbefalede computer</title>
 
@@ -29,9 +29,13 @@ require "settings/init.php";
 </head>
 <body>
 
+<!--NAVBAR-->
+<?php include 'includes/navbar.php'?>
+
+
 <!-- Din anbefalet computer -->
 <section>
-    <div class="container py-5">
+    <div class="container py-5 pt-0">
         <h2 class="display-6 text-center text-white fw-bold mb-5">Din anbefalet <span>computer</span></h2>
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 mb-5 mb-lg-0">
@@ -59,6 +63,11 @@ require "settings/init.php";
                     <div class="d-flex justify-content-center mt-3">
                         <p class="text-center fs-5 text-white">Pris: <span class="bg-pcblue">10.000 DKK</span></p>
                     </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="text-center fs-5 text-white" id="componentName"></div>
+                    </div>
+                    <div id="result"></div>
+
                     <div class="d-flex justify-content-center mt-3">
                         <a class="m-2 p-3 px-4 rounded-3 bg-black text-white text-decoration-none shadow" href="#">Køb nu</a>
                     </div>
@@ -125,7 +134,9 @@ require "settings/init.php";
                     <img src="images/cpu.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white">
+
+                        </p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
@@ -195,6 +206,14 @@ require "settings/init.php";
     </div>
 </section>
 
+<script>
+    function displayData(data) {
+        const resultElement = document.getElementById('result');
+        resultElement.textContent = JSON.stringify(data);
+    }
+</script>
+
+<script src="js/select_case.js"></script>
 
 </body>
 </html>

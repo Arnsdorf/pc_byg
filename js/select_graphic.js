@@ -14,7 +14,7 @@ graphicImages.forEach(image => {
             selectedGraphics.splice(index, 1);
             this.classList.remove('selected');
         } else {
-            if (selectedGraphics.length < 2) {
+            if (selectedGraphics.length < 1) {
                 selectedGraphics.push(this);
                 this.classList.add('selected');
             }
