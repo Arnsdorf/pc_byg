@@ -58,7 +58,7 @@
 
     <!-- Forside knap -->
     <div class="pt-3 d-flex position-relative justify-content-center pb-5">
-        <a class="text-decoration-none" href="#"><div class="button_tilbage rounded-1 justify-content-center">
+        <a class="text-decoration-none" href="gameselect.php"><div class="button_tilbage rounded-1 justify-content-center">
                 <span class="justify-content-center d-flex tilbage-text">Byg en pc</span></div></a>
     </div>
     <!-- Forside knap-end -->
@@ -72,9 +72,9 @@
     </div>
     <!-- Social-icon-front -->
     <div class="icon_box position-relative justify-content-center justify-content-md-start d-flex">
-        <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
-        <a class="text-decoration-none text-white " href="#" target="_blank">  <i class="bi bi-instagram ps-md-2 px-2 px-md-0 icon_front"></i></a>
-        <a class="text-decoration-none text-white " href="#" target="_blank" >  <i class="bi bi-linkedin ps-md-2 icon_front"></i></a>
+        <a class="text-decoration-none text-white " href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front"></i></a>
+        <a class="text-decoration-none text-white " href="https://www.instagram.com/" target="_blank">  <i class="bi bi-instagram ps-md-2 px-2 px-md-0 icon_front"></i></a>
+        <a class="text-decoration-none text-white " href="https://www.linkedin.com/" target="_blank" >  <i class="bi bi-linkedin ps-md-2 icon_front"></i></a>
     </div>
     <!-- Social-icon-front-end -->
 
@@ -115,7 +115,7 @@
 
             <!-----button1----->
             <div class="pt-4 d-flex position-relative justify-content-center pb-5">
-                <a class="text-decoration-none" href="#"><div class="button_tilbage rounded-1 justify-content-center">
+                <a class="text-decoration-none" href="gameselect.php"><div class="button_tilbage rounded-1 justify-content-center">
                         <span class="justify-content-center d-flex tilbage-text">Byg en pc</span></div></a>
             </div>
             <!-----button1-end----->
@@ -137,9 +137,9 @@
             <div><h1 class="instafont text-center">Følg os på <a class="tag text-decoration-none" href="#" target="#"><span class="tag">@BuildMate</span></a></h1></div>
 
             <div class="icon_box1 icons position-relative justify-content-center d-flex pt-4">
-                <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front1"></i></a>
-                <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front1"></i></a>
-                <a class="text-decoration-none text-white " href="#" target="_blank"> <i class="bi bi-linkedin ps-md-3 icon_front1"></i></a>
+                <a class="text-decoration-none text-white " href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook ps-md-3 icon_front1"></i></a>
+                <a class="text-decoration-none text-white " href="https://www.instagram.com/" target="_blank"> <i class="bi bi-instagram ps-md-3 px-3 px-md-0 icon_front1"></i></a>
+                <a class="text-decoration-none text-white " href="https://www.linkedin.com/" target="_blank"> <i class="bi bi-linkedin ps-md-3 icon_front1"></i></a>
             </div>
 
     </div>
@@ -179,6 +179,9 @@
 </div>
 
 <?php include 'includes/footer.php'?>
+
+<!--Script for Bootstrap-->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <!--Instabox-end-->
 <!--content-end-->
 
