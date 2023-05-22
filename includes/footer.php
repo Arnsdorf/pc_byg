@@ -9,7 +9,7 @@
 <div class="container-fluid bg-black text-center h-25">
 
     <div class="py-5">
-        <a href="/index.php">
+        <a href="index.php">
             <img src="images/buildmate_logo_light.svg" class="footer_logo mx-auto" alt="Buildmate logo">
         </a>
     </div>
