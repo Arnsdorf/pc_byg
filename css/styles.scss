@@ -113,11 +113,16 @@ span{
 //Sid's Legeplads//
 
 	//NAVBAR Styling
-.opasity{
+.navbar_gradient{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(121, 121, 121, 0.04));
 }
+
 .navbar_logo{
 	height: 4vh;
+
+	@media screen and (min-width: 768px){
+		height: 3vh;
+	}
 }
 
 .navbar a{
@@ -131,11 +136,19 @@ span{
 
 	//FOOTER Styling
 .footer_logo{
-	height: 6vh;
+	height: 5vh;
+
+	@media screen and (min-width: 768px){
+		height: 4vh;
+	}
 }
 
 .footer_icon{
-	font-size: 4vh;
+	font-size: 5vh;
+
+	@media screen and (min-width: 768px){
+		font-size: 3vh;
+	}
 }
 
 .footer_icon:hover {
@@ -143,6 +156,58 @@ span{
 }
 
 	//SUPPORT Styling
+.support_bg{
+	background-image: linear-gradient(to bottom, #01162A, #06557A);
+	min-height: 80vh;
+}
+
+.support_text{
+	width: 22rem;
+}
+
+.form_input{
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+	height: 35px;
+}
+
+.form_textarea{
+	width: 100%;
+	resize: none;
+	padding: 15px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+	height: 150px;
+}
+
+.form_button{
+	color: #fff7ff;
+	font-weight: bold;
+	background-image: linear-gradient(to right, #55ee92, #1d95e5);
+	height: 40px;
+	width: 8rem;
+	transition: background-color 1s;
+	border: none;
+}
+
+.form_button:hover{
+	background-image: linear-gradient(to right, #ee55cf, #3a11b2);
+	transform: scale(1.03);
+	transition: 100ms;
+}
+
+.contact_box{
+	height: 20rem;
+	width: 18rem;
+	border-radius: 15px;
+	background-color: #052239;
+	filter: drop-shadow(0px 2px 3px #090607);
+}
+
 .contact_icon{
 	font-size: 2rem;
 }

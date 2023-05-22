@@ -37,43 +37,58 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
+<!--BACKGROUND-->
+<div class="support_bg pb-5">
+
     <!--NAVBAR-->
     <?php include 'includes/navbar.php'?>
 
-    <!--Main Text-->
-    <div class="container mt-5">
-
-        <h2>Har du oplevede et problem med din PC?</h2>
-        <p>Du kan udfylde en support-ticket, og så svarer vi hurtigst muligt. Alternativt kan du kontakte os direkte.</p>
-
-    </div>
-
-    <br>
+    <!--CONTENT PADDING-->
+    <div class="px-3 px-md-0">
 
     <!--Support Form & Contact Info-->
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-evenly">
 
         <!--Support Form-->
-        <div class="">
+        <div class="text-center mb-5 mb-lg-0">
 
-            <form action="">
-                <label for="name">Navn:</label><br>
-                <input type="text" id="name" name="name" value=""><br><br>
+            <!--Main Text-->
+            <div class="container support_text text-start mt-5 mb-3">
 
-                <label for="email">E-Mail:</label><br>
-                <input type="text" id="email" name="email" value=""><br><br>
+                <h2 class="mb-2">Har du oplevede et problem med din PC?</h2>
+                <p>Du kan udfylde en support-ticket, og så svarer vi hurtigst muligt. Alternativt kan du kontakte os direkte.</p>
 
-                <label for="email"> Forklar dit problem: <br>
-                    <textarea rows = "5" cols = "50" name = "description"></textarea>
-                </label><br><br>
+            </div>
 
-                <input type="submit" value="Submit">
-            </form>
+            <!--Form Inputs-->
+            <div>
+
+                <form action="">
+
+                    <label for="name"></label>
+                    <input class="form_input" type="text" id="name" name="name" placeholder="Navn" value="">
+
+                    <br>
+
+                    <label for="email"></label>
+                    <input class="form_input" type="text" id="email" name="email" placeholder="E-Mail" value="">
+
+                    <br><br>
+
+                    <label for="email">
+                        <textarea class="form_textarea" rows="5" cols="35" name="description" placeholder="Forklar dit problem"></textarea>
+                    </label><br><br>
+
+                    <input class="form_button rounded-2" type="submit" value="Send">
+
+                </form>
+
+            </div>
 
         </div>
 
         <!--Contact Info-->
-        <div class="w-25 bg-dark text-center">
+        <div class="contact_box text-center">
 
             <br>
 
@@ -95,6 +110,10 @@
         </div>
 
     </div>
+
+    </div>
+
+</div>
 
     <!--FOOTER-->
     <?php include 'includes/footer.php'?>
