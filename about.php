@@ -74,21 +74,21 @@
 
 
         <div class="p-0 m-0 shadow col-10 d-md-none mt-5 justify-content-center">
-            <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7925.jpg"> </div>
+            <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7925 kopier.webp"> </div>
         </div>
 
         <div class="justify-content-center d-flex pb-3 pt-5 d-md-none"><img class="" src="images/object-group-solid.png"></div>
         <div class="text-center d-md-none"><h2 class="intro-text">Designer</h2></div>
 
         <div class="p-0 m-0 shadow col-10 d-md-none  mt-5 mb-5 justify-content-center">
-            <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7935.jpg"> </div>
+            <div class="about_card "><img class="img-about" src="ABOUT-IMG/IMG_7933 kopier.webp"> </div>
         </div>
 
         <div class="justify-content-center d-flex pb-2 d-md-none"><img class="" src="images/code-solid.png"></div>
         <div class="text-center d-md-none"><h2 class="intro-text">Koder</h2></div>
 
         <div class="p-0 m-0 shadow col-10 d-md-none mb-5 justify-content-center mt-5">
-            <div class="about_card"><img class="img-about" src="ABOUT-IMG/IMG_7977.jpg"> </div>
+            <div class="about_card"><img class="img-about" src="ABOUT-IMG/IMG_7977 kopier.webp"> </div>
         </div>
 
         <div class="justify-content-center d-flex pb-2 d-md-none"><img class="about-logo-alt" src="images/computer-solid.png"></div>
@@ -137,5 +137,7 @@
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="js/forside.js"></script>
+<!--Script for Bootstrap-->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
