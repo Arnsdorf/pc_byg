@@ -120,7 +120,7 @@
         </div>
 
         <div class="pt-5 mt-5 d-flex position-relative justify-content-center pb-5">
-            <a class="text-decoration-none" href="#"><div class="button_tilbage rounded-1 justify-content-center">
+            <a class="text-decoration-none" href="gameselect.php"><div class="button_tilbage rounded-1 justify-content-center">
                     <span class="justify-content-center d-flex tilbage-text">Byg en pc</span></div></a>
         </div>
 
@@ -130,12 +130,14 @@
 <div class="filler ">
 
 </div>
+
 <!--FOOTER-->
 <?php include 'includes/footer.php'?>
 
-
-<script src="js/forside.js"></script>
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/forside.js"></script>
+
 </body>
 </html>
