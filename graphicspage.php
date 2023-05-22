@@ -78,5 +78,7 @@ require "settings/init.php";
 
 
 <script src="js/select_graphic.js"></script>
+<!--Script for Bootstrap-->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
