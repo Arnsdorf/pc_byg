@@ -32,7 +32,7 @@ if (isset($data["password"]) && $data["password"] == "CSS"){
     }
 
     // Prepare the SQL query to select components by component_class
-    $sql = "SELECT * FROM components WHERE component_class = :component_class LIMIT 1";
+    $sql = "SELECT * FROM components WHERE component_class = :component_class LIMIT 2";
 
     // Bind the parameter
     $bind = [":component_class" => $data["componentClass"]];

@@ -9,9 +9,6 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-<!--FOOTER-->
-<?php include 'includes/footer.php'?>
-
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -38,9 +35,6 @@ require "settings/init.php";
 <!--NAVBAR-->
 <?php include 'includes/navbar.php'?>
 
-
-<!--NAVBAR-->
-<?php include 'includes/navbar.php'?>
 
 <!-- Din anbefalet computer -->
 <section>
@@ -214,6 +208,7 @@ require "settings/init.php";
         </div>
     </div>
 </section>
+<?php include 'includes/footer.php'?>
 
 <script type="module">
     import Builds from "./js/builds.js";
