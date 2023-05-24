@@ -32,7 +32,7 @@
 <section class="d-flex align-items-center justify-content-center">
     <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg dine top 2 <span>spil.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-2 p-max mx-auto">
             Vælg de <span>2 spil</span> du interessere dig for mest, eller de spil du godt kunne tænke dig at spille!
         </p>
     </div>
@@ -44,29 +44,27 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 d-flex justify-content-center">
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/fortnite.png" alt="fortnite" class="img" data-build-id="2" >
-                        </div>
-
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/gta.png" alt="gta" class="img" data-build-id="2">
-                        </div>
-
-
-                        <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-build-id="3" >
+                            <img src="images/fortnite.png" alt="fortnite" class="img" data-component-class="2">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/csgo.png" alt="csgo" class="img" data-build-id="1" >
+                            <img src="images/gta.png" alt="gta" class="img" data-component-class="2">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1">
+                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-component-class="3">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 rounded-5">
-                            <img src="images/warzone.png" alt="warzone" class="img" data-build-id="3">
+                            <img src="images/csgo.png" alt="csgo" class="img" data-component-class="1">
+                        </div>
+
+                        <div class="image shadow p-0 m-2 border-0 rounded-5">
+                            <img src="images/minecraft.png" alt="minecraft" class="img" data-component-class="1">
+                        </div>
+
+                        <div class="image shadow p-0 m-2 border-0 rounded-5">
+                            <img src="images/warzone.png" alt="warzone" class="img" data-component-class="3">
                         </div>
 
                     </div>
@@ -74,9 +72,10 @@
             </div>
         </div>
     </div>
+
     <div class="d-flex justify-content-center mt-3 mt-sm-5 flex-sm-row flex-column">
         <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="#">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="" id="submit_btn">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="graphicspage.php">Gå videre ></a>
     </div>
 </section>
 

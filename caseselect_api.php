@@ -33,6 +33,8 @@ if (isset($data["password"]) && $data["password"] == "CSS") {
     // Prepare the SQL query to select components by ID
     $sql = "SELECT * FROM components WHERE id = :id";
 
+
+
     // Bind the parameter
     $bind = [":id" => $data["id"]];
 
