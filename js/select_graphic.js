@@ -20,12 +20,12 @@ graphicImages.forEach(image => {
             }
         }
 
-        const buildClass = this.dataset.buildClass;
-        console.log(buildClass);
+        const componentClass = this.dataset.componentClass;
+        console.log(componentClass);
 
         const data = {
             password: "CSS",
-            buildId: buildClass,
+            componentClass: componentClass,
         };
 
         fetch(`graphicspage_api.php`, {
@@ -33,7 +33,7 @@ graphicImages.forEach(image => {
             body: JSON.stringify(data),
         }).then(response => response.json()).then(data => {
             console.log(data);
-            localStorage.setItem('selectedGame', JSON.stringify(data));
+            localStorage.setItem('gpu', JSON.stringify(data[0]));
         }).catch(error => console.error(error));
 
     });

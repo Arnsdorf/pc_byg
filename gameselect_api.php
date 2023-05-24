@@ -30,7 +30,7 @@ if (isset($data["password"]) && $data["password"] == "CSS"){
         exit;
     }
 
-    $sql = "SELECT * FROM builds WHERE build_class = :build_class";
+    $sql = "SELECT * FROM builds WHERE id = :build_class";
     $bind = [":build_class" => $data["buildId"]];
 
     $builds = $db->sql($sql, $bind);

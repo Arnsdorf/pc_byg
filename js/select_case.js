@@ -1,6 +1,12 @@
 const caseImages = document.querySelectorAll('.case');
 const selectedCase = [];
 
+const selectedGame = JSON.parse(localStorage.getItem('selectedGame'));
+
+if (selectedGame) {
+    console.log(selectedGame);
+}
+
 caseImages.forEach(image => {
     image.addEventListener('click', function() {
         const index = selectedCase.indexOf(this);
@@ -14,22 +20,23 @@ caseImages.forEach(image => {
             }
         }
 
-        const typeId = this.dataset.id; // Get the data value for the selected image
+        const typeId = this.dataset.id; // Få dataværdien for det valgte billede
 
-        // Perform AJAX request to the PHP script with the selected typeId
+        // Udfør AJAX-anmodning til PHP-siden med det valgte typeId
         fetch('caseselect_api.php', {
             method: 'POST',
             body: JSON.stringify({ id: typeId, password: 'CSS' })
         })
-            .then(response => {
+            .then(async response => {
                 if (!response.ok) {
-                    throw new Error(response.statusText);
+                    throw new Error(await response.json());
                 }
-                return response.json();
+                return await response.json();
             })
             .then(data => {
-                // Handle data from the PHP script here
+                // Behandle data fra PHP-siden her
                 console.log(data);
+                localStorage.setItem('case', JSON.stringify(data[0]));
             })
             .catch(error => {
                 console.error('Fejl:', error);

@@ -127,7 +127,7 @@ require "settings/init.php";
 </section>
 
 <!-- Dine Spil -->
-<section>
+<section class="build">
     <div class="pt-5 mt-4">
         <h2 class="display-6 text-center text-white fw-bold">PC <span>Komponenter</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
@@ -143,7 +143,7 @@ require "settings/init.php";
                     <img src="images/cpu.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
-                        <p class="fs-6 ps-3 text-white">
+                        <p class="fs-6 ps-3 text-white cpu">
 
                         </p>
                     </div>
@@ -152,21 +152,21 @@ require "settings/init.php";
                     <img src="images/gpu.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Grafikkort:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white gpu"></p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
                     <img src="images/ssd.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Lagring:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white storage_ssd storage_capacity"></p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
                     <img src="images/case.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Kabinet:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white cabinet"></p>
                     </div>
                 </div>
             </div>
@@ -175,28 +175,28 @@ require "settings/init.php";
                     <img src="images/bundkort.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Bundkort:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white motherboard"></p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
                     <img src="images/køling.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Køling:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white">Corsair iCUE H150i RGB ELITE</p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
                     <img src="images/ram.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>RAM:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white ram"></p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mb-3 mb-md-0 mt-md-0 d-flex align-items-center">
                     <img src="images/psu.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>PSU:</span></p>
-                        <p class="fs-6 ps-3 text-white">GTX 2080 TI</p>
+                        <p class="fs-6 ps-3 text-white psu">Corsair RM850e V2 (ATX3.0) - 850 Watt</p>
                     </div>
                 </div>
             </div>
@@ -215,11 +215,18 @@ require "settings/init.php";
     </div>
 </section>
 
-<script>
-    function displayData(data) {
-        const resultElement = document.getElementById('result');
-        resultElement.textContent = JSON.stringify(data);
-    }
+<script type="module">
+    import Builds from "./js/builds.js";
+    const builds = new Builds();
+    builds.init();
+
+    import Builds1 from "./js/builds1.js";
+    const builds1 = new Builds1();
+    builds1.init();
+
+    import Builds2 from "./js/builds2.js";
+    const builds2 = new Builds2();
+    builds2.init();
 </script>
 
 <script src="js/select_case.js"></script>

@@ -3,7 +3,6 @@ require "settings/init.php";
 
 $data = json_decode(file_get_contents('php://input'), true);
 
-
 /*
  * password: Skal udfyldes og være CSS
  *
@@ -25,24 +24,27 @@ header("Content-Type: application/json; charset=utf-8");
 
 if (isset($data["password"]) && $data["password"] == "CSS"){
 
-    if (empty($data["buildId"])) {
-        echo "Error";
+    if (empty($data["componentClass"])) {
+        header("HTTP/1.1 400 Bad Request");
+        $error["errorMessage"] = "Forkert forespørgsel";
+        echo json_encode($error);
         exit;
     }
 
-    $sql = "SELECT * FROM builds_connect_components WHERE build_id = :build_class LIMIT 1;";
-    $bind = [":build_class" => $data["buildId"]];
+    // Prepare the SQL query to select components by component_class
+    $sql = "SELECT * FROM components WHERE component_class = :component_class LIMIT 1";
+
+    // Bind the parameter
+    $bind = [":component_class" => $data["componentClass"]];
 
     $builds = $db->sql($sql, $bind);
+
+
     header("HTTP/1.1 200 OK");
-
     echo json_encode($builds);
-
-
 } else{
     header("HTTP/1.1 401 Unauthorized");
     $error["errorMessage"] = "Kodeord mislykkedes";
 
     echo json_encode($error);
 }
-?>
