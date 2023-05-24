@@ -45,29 +45,29 @@
 
 
                         <div class="image shadow p-0 m-2 border-0 ">
-                            <img src="images/fortnite.png" alt="fortnite" class="img " data-build-id="2" >
+                            <img src="images/fortnite.png" alt="fortnite" class="img " data-component-class="2">
                         </div>
 
 
                         <div class="image shadow p-0 m-2 border-0 ">
-                            <img src="images/gta.png" alt="gta" class="img" data-build-id="2">
+                            <img src="images/gta.png" alt="gta" class="img" data-component-class="2">
                         </div>
 
 
                         <div class="image shadow p-0 m-2 border-0 ">
-                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-build-id="3" >
+                            <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-component-class="3">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 ">
-                            <img src="images/csgo.png" alt="csgo" class="img" data-build-id="1" >
+                            <img src="images/csgo.png" alt="csgo" class="img" data-component-class="1" >
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0 ">
-                            <img src="images/minecraft.png" alt="minecraft" class="img" data-build-id="1">
+                            <img src="images/minecraft.png" alt="minecraft" class="img" data-component-class="1">
                         </div>
 
                         <div class="image shadow p-0 m-2 border-0">
-                            <img src="images/warzone.png" alt="warzone" class="img" data-build-id="3">
+                            <img src="images/warzone.png" alt="warzone" class="img" data-component-class="3">
                         </div>
 
 
@@ -76,9 +76,10 @@
             </div>
         </div>
     </div>
+
     <div class="d-flex justify-content-center mt-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 button-guide bg-black text-white text-decoration-none shadow" href="#">< Gå tilbage</a>
-        <a class="m-2 p-3 button-guide bg-black text-white text-decoration-none shadow" href="" id="submit_btn">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="#">< Gå tilbage</a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="graphicspage.php">Gå videre ></a>
     </div>
 </section>
 
