@@ -9,6 +9,11 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
+<!--FOOTER-->
+<?php include 'includes/footer.php'?>
+
+<!--Script for Bootstrap-->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Din anbefalede computer</title>
 
@@ -16,6 +21,7 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <link rel="tab icon" type="img" href="images/buildmate_favicon_pink.svg">
     <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -32,6 +38,9 @@ require "settings/init.php";
 <!--NAVBAR-->
 <?php include 'includes/navbar.php'?>
 
+
+<!--NAVBAR-->
+<?php include 'includes/navbar.php'?>
 
 <!-- Din anbefalet computer -->
 <section>
