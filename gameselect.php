@@ -78,8 +78,8 @@
     </div>
 
     <div class="d-flex justify-content-center mt-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="#">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="graphicspage.php">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow button-guide" href="#">< Gå tilbage</a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow button-guide" href="graphicspage.php">Gå videre ></a>
     </div>
 </section>
 
