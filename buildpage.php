@@ -201,8 +201,27 @@
 </section>
 <?php include 'includes/footer.php'?>
 
+<script type="module">
+    const buildModules = [
+        "./js/builds.js",
+        "./js/builds1.js",
+        "./js/builds2.js",
+        "./js/builds3.js",
+        "./js/builds4.js",
+        "./js/builds5.js"
+    ];
 
-<script src="js/buildsInit.js" type="module"></script>
+    buildModules.forEach(modulePath => {
+        import(modulePath)
+            .then(BuildsModule => {
+                const builds = new BuildsModule.default();
+                builds.init();
+            })
+            .catch(error => console.error(error));
+    });
+</script>
+
+
 <script src="js/select_case.js"></script>
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
