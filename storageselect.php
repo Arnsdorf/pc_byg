@@ -34,7 +34,7 @@ require "settings/init.php";
 <section>
     <div class="pt-5">
         <h2 class="display-6 text-center text-white fw-bold">Vælg <span>lagring.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto semi-font">
             <span>Lagring</span> omhandler den ledige plads på din computer
             som kan opbevare filer, programmer og <span>spil</span>.
         </p>
@@ -65,11 +65,21 @@ require "settings/init.php";
         </div>
     </div>
     <div class="d-flex justify-content-center mt-3 mb-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="graphicspage.php">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="caseselect.php">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow button-guide" href="graphicspage.php">< Gå tilbage</a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow button-guide" href="caseselect.php">Gå videre ></a>
     </div>
 </section>
+<div class="pt-2 m-0 p-0">
+    <div class="row justify-content-center m-0 p-0 pb-4">
 
+        <div class=" dot-div opacity-50 ps-1"></div>
+        <div class="dot-div ps-1 ms-2 opacity-75"></div>
+        <div class="dot-div-s ps-1 ms-2 opacity-100"></div>
+        <div class="dot-div ps-1 ms-2 opacity-50"></div>
+        <div class="dot-div ps-1 ms-2 opacity-25"></div>
+
+    </div>
+</div>
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/select_storage.js"></script>

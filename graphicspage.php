@@ -37,7 +37,7 @@ require "settings/init.php";
 <section>
     <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg din grafiske <span>ydeevne.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto semi-font">
             Grafisk ydeevne omhandler den visuelle oplevelse man oplever under <span>spil</span>, og hvor realistiske denne oplevelse er.
         </p>
     </div>
@@ -48,24 +48,24 @@ require "settings/init.php";
 
                     <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-lg-between justify-content-center">
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
-                            <img src="images/lowgraphic.png" alt="graphic_game" class="graphic_game shadow" data-component-class="1">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box">
+                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.43.06.png" alt="graphic_game" class="graphic_game shadow " data-component-class="1">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
-                                <h5 class="text-white mb-5 p-min"><span>Lav</span> grafisk ydeevne</h5>
+                                <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Lav</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
-                            <img src="images/midgraphic.png" alt="graphic_game" class="graphic_game shadow" data-component-class="2">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box">
+                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.31.49.png" alt="graphic_game" class="graphic_game shadow " data-component-class="2">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
-                                <h5 class="text-white mb-5 p-min"><span>Mellem</span> grafisk ydeevne</h5>
+                                <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Mellem</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
-                            <img src="images/highgraphic.png" alt="graphic_game" class="graphic_game shadow" data-component-class="3">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box">
+                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.00.32.png" alt="graphic_game" class="graphic_game shadow" data-component-class="3">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
-                                <h5 class="text-white mb-5 p-min"><span>Høj</span> grafisk ydeevne</h5>
+                                <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Høj</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
@@ -76,10 +76,21 @@ require "settings/init.php";
         </div>
     </div>
     <div class="d-flex justify-content-center mt-3 mb-3 mt-sm-5 flex-sm-row flex-column">
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="gameselect.php">< Gå tilbage</a>
-        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow" href="storageselect.php">Gå videre ></a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow button-guide" href="gameselect.php">< Gå tilbage</a>
+        <a class="m-2 p-3 bg-black text-white text-decoration-none shadow button-guide" href="storageselect.php">Gå videre ></a>
     </div>
 </section>
+<div class="pt-2 m-0 p-0">
+    <div class="row justify-content-center m-0 p-0 pb-4">
+
+        <div class=" dot-div opacity-75 ps-1"></div>
+        <div class="dot-div-s ps-1 ms-2 opacity-100"></div>
+        <div class="dot-div ps-1 ms-2 opacity-50"></div>
+        <div class="dot-div ps-1 ms-2 opacity-25"></div>
+        <div class="dot-div ps-1 ms-2 opacity-25"></div>
+
+    </div>
+</div>
 
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
