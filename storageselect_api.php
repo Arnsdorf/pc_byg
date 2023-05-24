@@ -32,7 +32,7 @@ if (isset($data["password"]) && $data["password"] == "CSS") {
     }
 
     // Opret SQL-forespørgsel med en INNER JOIN mellem "components" og "type" tabellerne
-    $sql = "SELECT components.* FROM components INNER JOIN type ON components.typeId = type.id WHERE type.id = :typeId LIMIT 1";
+    $sql = "SELECT * FROM components WHERE typeId = :typeId LIMIT 1";
 
     // Bind parameteren
     $bind = [":typeId" => $data["typeId"]];

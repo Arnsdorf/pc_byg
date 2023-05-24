@@ -34,6 +34,7 @@ graphicImages.forEach(image => {
         }).then(response => response.json()).then(data => {
             console.log(data);
             localStorage.setItem('gpu', JSON.stringify(data[0]));
+            localStorage.setItem('cpu', JSON.stringify(data[1]));
         }).catch(error => console.error(error));
 
     });

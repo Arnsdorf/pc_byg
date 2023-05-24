@@ -1,16 +1,7 @@
-<?php
-require "settings/init.php";
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="da">
 <head>
     <meta charset="utf-8">
-
-<!--Script for Bootstrap-->
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Din anbefalede computer</title>
 
@@ -125,16 +116,16 @@ require "settings/init.php";
     <div class="pt-5 mt-4">
         <h2 class="display-6 text-center text-white fw-bold">PC <span>Komponenter</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
-            Ramte vi ikke helt plet? eller ønsker du at ændre
+            Ramte vi ikke helt plet? Eller ønsker du at ændre
             din <span>computer</span> yderligere så har du muligheden for
             at <span>ændre</span> din computer som du ønsker!
         </p>
     </div>
     <div class="pb-5 pt-2">
-        <div class="container w-85 shadow mx-auto rounded-3 m-2 bg-question d-flex flex-column flex-md-row">
+        <div class="container w-85 shadow mx-auto rounded-3 m-2 bg-pcparts d-flex flex-column flex-md-row">
             <div class="row">
                 <div class="p-md-3 mt-3 mt-md-0 d-flex align-items-center">
-                    <img src="images/cpu.png" class="com_icon" alt="image">
+                    <img src="images/cpu.png" class="com_icon shadow" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>Processor:</span></p>
                         <p class="fs-6 ps-3 text-white cpu">
@@ -210,20 +201,8 @@ require "settings/init.php";
 </section>
 <?php include 'includes/footer.php'?>
 
-<script type="module">
-    import Builds from "./js/builds.js";
-    const builds = new Builds();
-    builds.init();
 
-    import Builds1 from "./js/builds1.js";
-    const builds1 = new Builds1();
-    builds1.init();
-
-    import Builds2 from "./js/builds2.js";
-    const builds2 = new Builds2();
-    builds2.init();
-</script>
-
+<script src="js/buildsInit.js" type="module"></script>
 <script src="js/select_case.js"></script>
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

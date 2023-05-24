@@ -20,28 +20,46 @@ $header = "HTTP/1.1 200 OK"; // Getting a resource or a collection resources res
 $header = "HTTP/1.1 200 Created"; // Creating a resource results in a 201 Created response.
 $header = "HTTP/1.1 200 No Content"; // Updating or deleting a resource results in a 204 No Content response.
  */
-
 header("Content-Type: application/json; charset=utf-8");
 
-if (isset($data["password"]) && $data["password"] == "CSS"){
-
-    if(empty($data["buildId"])){
+if (isset($data["password"]) && $data["password"] == "CSS") {
+    if (empty($data["componentClass"])) {
         echo "Error";
         exit;
     }
 
-    $sql = "SELECT * FROM builds WHERE id = :build_class";
-    $bind = [":build_class" => $data["buildId"]];
+    $componentClass = $data["componentClass"];
 
-    $builds = $db->sql($sql, $bind);
+    // Query 1: Select components based on typeId = 7 and component_class = :componentClass
+    $sql = "SELECT components.* FROM components INNER JOIN builds_connect_components ON components.component_class = builds_connect_components.build_id
+    WHERE components.typeId = 7 AND components.component_class = :componentClass LIMIT 1";
+
+    // Query 2: Select components based on typeId = 3 and component_class = :componentClass
+    $sql1 = "SELECT components.* FROM components INNER JOIN builds_connect_components ON components.component_class = builds_connect_components.build_id
+    WHERE components.typeId = 3 AND components.component_class = :componentClass LIMIT 1";
+
+    // Bind parameters
+    $bind = [
+        ":componentClass" => $componentClass
+    ];
+
+    // Execute the queries
+    $components1 = $db->sql($sql1, $bind);
+    $components2 = $db->sql($sql, $bind);
+
+    $result = [
+        "query1" => $components1,
+        "query2" => $components2
+    ];
+
     header("HTTP/1.1 200 OK");
-
-    echo json_encode($builds);
-
-} else{
+    echo json_encode($result);
+} else {
     header("HTTP/1.1 401 Unauthorized");
     $error["errorMessage"] = "Kodeord mislykkedes";
 
     echo json_encode($error);
 }
 ?>
+
+
