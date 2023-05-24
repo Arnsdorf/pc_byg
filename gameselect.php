@@ -31,7 +31,7 @@
 <!-- pc-byg -->
 <section class="d-flex align-items-center justify-content-center">
     <div class="">
-        <h2 class="display-6 text-center text-white fw-bold">Vælg dine top 2 <span>spil.</span></h2>
+        <h2 class="display-6 text-center text-white fw-bold">SEX Vælg dine top 2 <span>spil.</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-2 p-max mx-auto">
             Vælg de <span>2 spil</span> du interessere dig for mest, eller de spil du godt kunne tænke dig at spille!
         </p>
