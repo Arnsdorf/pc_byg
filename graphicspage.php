@@ -21,6 +21,11 @@ require "settings/init.php";
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <!-- Link til Montserrat skrifttypen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -44,21 +49,21 @@ require "settings/init.php";
                     <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-lg-between justify-content-center">
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
-                            <img src="images/lowgraphic.png" alt="graphic_game" class="graphic_game shadow" data-build-class="1">
+                            <img src="images/lowgraphic.png" alt="graphic_game" class="graphic_game shadow" data-component-class="1">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-5 p-min"><span>Lav</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
-                            <img src="images/midgraphic.png" alt="graphic_game" class="graphic_game shadow" data-build-class="2">
+                            <img src="images/midgraphic.png" alt="graphic_game" class="graphic_game shadow" data-component-class="2">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-5 p-min"><span>Mellem</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
-                            <img src="images/highgraphic.png" alt="graphic_game" class="graphic_game shadow" data-build-class="3">
+                            <img src="images/highgraphic.png" alt="graphic_game" class="graphic_game shadow" data-component-class="3">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-5 p-min"><span>Høj</span> grafisk ydeevne</h5>
                             </div>

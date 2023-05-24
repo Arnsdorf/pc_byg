@@ -1,11 +1,12 @@
 const storageImages = document.querySelectorAll('.storage');
 const selectedStorage = [];
 
-const selectedGraphics = JSON.parse(localStorage.getItem('selectedGame'));
+const selectedGame = JSON.parse(localStorage.getItem('selectedGame'));
 
-if (selectedGraphics) {
-    console.log(selectedGraphics);
+if (selectedGame) {
+    console.log(selectedGame);
 }
+
 
 storageImages.forEach(image => {
     image.addEventListener('click', function() {
@@ -27,15 +28,16 @@ storageImages.forEach(image => {
             method: 'POST',
             body: JSON.stringify({ typeId: typeId, password: 'CSS' })
         })
-            .then(response => {
+            .then(async response => {
                 if (!response.ok) {
                     throw new Error(response.statusText);
                 }
-                return response.json();
+                return await response.json();
             })
             .then(data => {
                 // Behandle data fra PHP-siden her
                 console.log(data);
+                localStorage.setItem('storage', JSON.stringify(data[0]));
             })
             .catch(error => {
                 console.error('Fejl:', error);
