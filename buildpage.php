@@ -56,7 +56,7 @@
 
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <p class="text-center fs-5 text-white">Pris: <span class="bg-pcblue">10.000 DKK</span></p>
+                        <p class="text-center fs-5 text-white fw-bold">Pris: <span class="fw-bold">10.000 DKK</span></p>
                     </div>
                     <div class="d-flex justify-content-center mt-3">
                         <div class="text-center fs-5 text-white"></div>
@@ -92,14 +92,14 @@
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
                             <img src="images/fortnite.png" alt="graphic_game" class="shadow done_game">
                             <div class="position-absolute bottom-50 start-50 translate-middle-x text-center">
-                                <h3 class="text-white p-min fw-bold">FPS</h3>
+                                <h3 class="text-white p-min fw-bold">FPS 120+</h3>
                             </div>
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
                             <img src="images/minecraft.png" alt="graphic_game" class="shadow done_game">
                             <div class="position-absolute bottom-50 start-50 translate-middle-x text-center">
-                                <h3 class="text-white p-min fw-bold">FPS</h3>
+                                <h3 class="text-white p-min fw-bold">FPS 240+</h3>
                             </div>
                         </div>
 
@@ -196,8 +196,8 @@
         <p class="pt-3 pb-3 fs-5 text-white text-center p-max mx-auto">
             Ikke helt hvad du leder efter? Det er fint! ikke alle <span>gamer</span> vinder deres første <span>spil</span>.
         </p>
-        <div class="d-flex justify-content-center mb-5">
-            <a class="m-2 p-3 px-4 bg-black text-white text-decoration-none shadow" href="gameselect.php">Prøv igen?</a>
+        <div class="d-flex justify-content-center mb-5 ">
+            <a class="m-2 p-3 px-4 bg-black text-white button-guide semi-font text-decoration-none shadow" href="gameselect.php">Prøv igen?</a>
         </div>
     </div>
 </section>

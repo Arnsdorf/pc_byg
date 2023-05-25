@@ -13,8 +13,8 @@ gameImages.forEach(image => {
             body: JSON.stringify(data),
         }).then(response => response.json()).then(data => {
             console.log(data);
-            localStorage.setItem('motherboard', JSON.stringify(data.query1[0]));
-            localStorage.setItem('ram', JSON.stringify(data.query2[0]));
+            localStorage.setItem('motherboard', JSON.stringify(data.query2[0]));
+            localStorage.setItem('ram', JSON.stringify(data.query1[0]));
         }).catch(error => console.error(error));
 
     });

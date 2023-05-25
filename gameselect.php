@@ -44,7 +44,7 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 d-flex justify-content-center">
 
 
-                        <div class="image shadow p-0 m-2 border-0">
+                        <div class="image shadow p-0 m-2 border-0 ">
                             <img src="images/fortnite.png" alt="fortnite" class="img" data-component-class="2">
                         </div>
 
@@ -54,11 +54,11 @@
                         </div>
 
 
-                        <div class="image shadow p-0 m-2 border-0">
+                        <div class="image shadow p-0 m-2 border-0 ">
                             <img src="images/hoqwarts.png" alt="hogwarts" class="img" data-component-class="3">
                         </div>
 
-                        <div class="image shadow p-0 m-2 border-0">
+                        <div class="image shadow p-0 m-2 border-0 ">
                             <img src="images/csgo.png" alt="csgo" class="img" data-component-class="1" >
                         </div>
 
