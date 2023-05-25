@@ -66,7 +66,7 @@ den computer der passer dig bedst.">
                             </div>
                         </div>
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box sel">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box sel mb-5 mb-md-0">
                             <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.00.32.png" alt="graphic_game" class="graphic-pic shadow graphic_game" data-component-class="3">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Høj</span> grafisk ydeevne</h5>

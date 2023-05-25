@@ -125,7 +125,7 @@ den computer der passer dig bedst.">
         </div>
 
         <div class="pt-5 mt-5 d-flex position-relative justify-content-center pb-5">
-            <a class="text-decoration-none" href="gameselect.php"><div class="button_tilbage rounded-1 justify-content-center">
+            <a class="text-decoration-none"  href="gameselect.php"><div class="button_tilbage rounded-1 justify-content-center">
                     <span class="justify-content-center d-flex tilbage-text">Byg en pc</span></div></a>
         </div>
 
