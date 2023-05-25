@@ -11,7 +11,11 @@ require "settings/init.php";
     <meta charset="utf-8">
 
     <title>Vælg lagring</title>
-
+    <meta name="author" content="Sigurd, Sidney og Christian. Buildmate 2023.">
+    <meta name="copyright" content="Sigurd, Tommy og Christian. Find Graphics 2022. All Rights Reserved.">
+    <meta name="description" content="Leder du efter din næste computer? men ved ikke hvo du skal starte? BuildMate hjælper dig med at finde
+den computer der passer dig bedst.">
+    <meta name="theme-color" content="#ffffff"/>
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">

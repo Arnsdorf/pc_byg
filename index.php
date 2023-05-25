@@ -11,7 +11,11 @@
 
     <!-- Titel som ses oppe i browserens tab mv. -->
     <title>Buildmate</title>
-
+    <meta name="author" content="Sigurd, Sidney og Christian. Buildmate 2023.">
+    <meta name="copyright" content="Sigurd, Tommy og Christian. Find Graphics 2022. All Rights Reserved.">
+    <meta name="description" content="Leder du efter din næste computer? men ved ikke hvo du skal starte? BuildMate hjælper dig med at finde
+den computer der passer dig bedst.">
+    <meta name="theme-color" content="#ffffff"/>
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -96,19 +100,19 @@
         <div class="row gap-5 p-0 m-0 justify-content-center ">
 
             <div class="card_front card-cool shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3">
-                <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/desktop-solid.png"></div>
+                <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" alt="icon" src="images/desktop-solid.png"></div>
                 <div class="card-rubrik"><h3 class=" ps-2 pe-2 pt-5 rubrik1 text-center">Få en forståelse for din PC</h3></div>
                 <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">Hos BuildMate tilbyder vi en nemmere måde at bygge din drømme-PC på, samtidig med at man får en bedre forståelse for den maskine man har samlet.</h6></div>
             </div>
 
             <div class="card_front card-cool shadow col-10 col-md-5 col-lg-4 col-xl-3 mt-3 mb-3">
-                <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" src="images/keyboard-solid.png"></div>
+                <div class="justify-content-center d-flex pt-5"> <img class="card-image text-center" alt="icon" src="images/keyboard-solid.png"></div>
                 <div class="card-rubrik"><h3 class="pt-4 rubrik2 text-center">Kom direkte tind i PC-bygning</h3></div>
                 <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">Med vores PC-bygningsguide kan du hurtig kom i gang med at lave en PC som passer til din stil og behov, uden at rode rundt i en jungle af forvirrende information.</h6></div>
             </div>
 
             <div class="card_front card-cool shadow col-10 col-md-5 col-lg-4 col-xl-3 mb-3 mt-md-3">
-                <div class="justify-content-center d-flex pt-5 "> <img class="card-image text-center" src="images/gamepad-solid.png"></div>
+                <div class="justify-content-center d-flex pt-5 "> <img class="card-image text-center" alt="icon" src="images/gamepad-solid.png"></div>
                 <div class="card-rubrik"><h3 class="pt-4 rubrik3 text-center">Dine spil, dine behov</h3></div>
                 <div class="justify-content-center d-flex"><h6 class="card-text1 text-white pt-4 ps-4 pe-4 pt-lg-5 pb-5">BuildMate computere giver dig friheden til at udforske gamingverden, uden at blive hæmmede af en computer som ikke passer til hvad man har brug for.</h6></div>
             </div>
@@ -149,20 +153,20 @@
     <div class="row m-0 p-0">
 
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_1.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_2.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_3.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_4.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_1.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_2.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_3.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_4.webp"></a></div>
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_5.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_6.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_7.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_8.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_5.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_6.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_7.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_8.webp"></a></div>
 
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_9.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_10.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_11.webp"></a></div>
-        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" src="insta/insta_12.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_9.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_10.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_11.webp"></a></div>
+        <div class="instabox col-6 col-lg-2 col-md-3 p-0"><a class="" href="https://www.instagram.com/" target="_blank"><img class="instaimage" alt="Insta-pic" src="insta/insta_12.webp"></a></div>
 
     </div>
 </div>
