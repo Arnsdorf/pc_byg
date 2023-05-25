@@ -33,7 +33,7 @@ require "settings/init.php";
 <section>
     <div class="pt-5">
         <h2 class="display-6 text-center text-white fw-bold">Computer <span>kabinet.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto">
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto p-2">
             Din computer, din stil. Vælg det <span>kabinet</span>, som viser din indre gamer ånd.
         </p>
     </div>

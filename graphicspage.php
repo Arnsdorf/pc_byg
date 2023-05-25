@@ -37,7 +37,7 @@ require "settings/init.php";
 <section>
     <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg din grafiske <span>ydeevne.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto semi-font">
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto p-2">
             Grafisk ydeevne omhandler den visuelle oplevelse man oplever under <span>spil</span>, og hvor realistiske denne oplevelse er.
         </p>
     </div>
