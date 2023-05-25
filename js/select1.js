@@ -1,16 +1,16 @@
 const Images = document.querySelectorAll('.sel');
-const selectedStorage = [];
+const selected = [];
 
 
 Images.forEach(image => {
     image.addEventListener('click', function() {
-        const index = selectedStorage.indexOf(this);
+        const index = selected.indexOf(this);
         if (index > -1) {
-            selectedStorage.splice(index, 1);
+            selected.splice(index, 1);
             this.classList.remove('selected');
         } else {
-            if (selectedStorage.length < 1) {
-                selectedStorage.push(this);
+            if (selected.length < 1) {
+                selected.push(this);
                 this.classList.add('selected');
             }
         }
