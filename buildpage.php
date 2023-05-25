@@ -37,6 +37,7 @@
                     <img class="bg-pcblue rounded-3 pc_comp_img shadow d-flex justify-content-center" src="images/pc_done.png" alt="Din færdige pc">
                 </div>
             </div>
+            <!-- PC Stats -->
             <div class="col-md-4 d-flex justify-content-center">
                 <div class="card border-0">
                     <div class="card-body shadow rounded-3 d-flex justify-content-center flex-column">
@@ -58,9 +59,8 @@
                         <p class="text-center fs-5 text-white">Pris: <span class="bg-pcblue">10.000 DKK</span></p>
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <div class="text-center fs-5 text-white" id="componentName"></div>
+                        <div class="text-center fs-5 text-white"></div>
                     </div>
-                    <div id="result"></div>
 
                     <div class="d-flex justify-content-center mt-3">
                         <a class="m-2 p-3 px-4 rounded-3 bg-black text-white text-decoration-none shadow" href="#">Køb nu</a>
@@ -111,7 +111,7 @@
     </div>
 </section>
 
-<!-- Dine Spil -->
+<!-- PC Komponenter -->
 <section class="build">
     <div class="pt-5 mt-4">
         <h2 class="display-6 text-center text-white fw-bold">PC <span>Komponenter</span></h2>
@@ -121,6 +121,7 @@
             at <span>ændre</span> din computer som du ønsker!
         </p>
     </div>
+    <!-- PC Komponenter Overview -->
     <div class="pb-5 pt-2">
         <div class="container w-85 shadow mx-auto rounded-3 m-2 bg-pcparts d-flex flex-column flex-md-row">
             <div class="row">
@@ -174,7 +175,7 @@
                     <img src="images/ram.png" class="com_icon" alt="image">
                     <div class="d-flex flex-column">
                         <p class="fs-6 ps-3 fw-bold text-white"><span>RAM:</span></p>
-                        <p class="fs-6 ps-3 text-white ram"></p>
+                        <p class="fs-6 ps-3 text-white ram ram_storage"></p>
                     </div>
                 </div>
                 <div class="p-md-3 mt-3 mb-3 mb-md-0 mt-md-0 d-flex align-items-center">
@@ -189,6 +190,7 @@
     </div>
 </section>
 
+<!-- Prøv igen -->
 <section class="shadow" style="background-color: #001D31">
     <div class="pt-5">
         <p class="pt-3 pb-3 fs-5 text-white text-center p-max mx-auto">

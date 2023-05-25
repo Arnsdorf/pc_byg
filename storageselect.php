@@ -36,7 +36,7 @@ require "settings/init.php";
 <section>
     <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg <span>lagring.</span></h2>
-        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto semi-font">
+        <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto p-2">
             <span>Lagring</span> omhandler den ledige plads på din computer
             som kan opbevare filer, programmer og <span>spil</span>.
         </p>
