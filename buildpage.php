@@ -202,7 +202,17 @@
     </div>
 </section>
 
-<?php include 'includes/footer.php'?>
+<div class="pt-2 m-0 p-0 bg-help">
+    <div class="row justify-content-center m-0 p-0 pb-4">
+
+        <div class="dot-div opacity-25 ps-1"></div>
+        <div class="dot-div ps-1 ms-2 opacity-25"></div>
+        <div class="dot-div ps-1 ms-2 opacity-50"></div>
+        <div class="dot-div ps-1 ms-2 opacity-75"></div>
+        <div class="dot-div-s ps-1 ms-2 opacity-100"></div>
+
+    </div>
+</div>
 
 <script type="module">
     const buildModules = [
@@ -228,6 +238,7 @@
 <script src="js/select_case.js"></script>
 <!--Script for Bootstrap-->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
 
