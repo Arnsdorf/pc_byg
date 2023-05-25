@@ -30,9 +30,11 @@ require "settings/init.php";
 </head>
 <body>
 
+<?php include 'includes/navbar.php'?>
+
 <!-- pc-byg -->
 <section>
-    <div class="pt-5">
+    <div class="">
         <h2 class="display-6 text-center text-white fw-bold">Vælg <span>lagring.</span></h2>
         <p class="pt-3 pb-5 fs-5 text-white text-center p-max mx-auto semi-font">
             <span>Lagring</span> omhandler den ledige plads på din computer
@@ -40,22 +42,22 @@ require "settings/init.php";
         </p>
     </div>
     <div class="container-fluid shadow" style="background-color: #001D31">
-        <div class="row d-flex justify-content-center mt-sm-5 mb-sm-5">
+        <div class="row d-flex justify-content-center mb-4 mt-sm-5 mb-sm-5 m-lg-4">
             <div class="pb-2 pt-2">
                 <div class="container">
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-center">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-evenly">
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center">
-                            <img src="images/lagring_lav.png" alt="storage_low" class="storage" data-type-id="4">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center storage-animation storage">
+                            <img src="images/lagring_lav.png" alt="storage_low" class="" data-type-id="4">
                         </div>
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center">
-                            <img src="images/lagring_middel.png" alt="storage_mid" class="storage" data-type-id="5">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center storage storage-animation">
+                            <img src="images/lagring_middel.png" alt="storage_mid" class="" data-type-id="5">
                         </div>
 
-                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center">
-                            <img src="images/lagring_stor.png" alt="storage_high" class="storage" data-type-id="6">
+                        <div class="p-0 mx-sm-2 mt-5 mt-lg-0 d-flex justify-content-center storage storage-animation">
+                            <img src="images/lagring_stor.png" alt="storage_high" class="" data-type-id="6">
                         </div>
 
                     </div>

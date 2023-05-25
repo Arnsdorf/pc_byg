@@ -159,10 +159,12 @@ img {
 }
 .graphic_box{
 	min-height: 10vh;
-	height: 45vh;
+	height: 40vh;
+	width: 18rem;
 	overflow: hidden;
+	transition: 200ms;
 }
-.graphic_game{
+.graphic-pic{
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
@@ -170,7 +172,7 @@ img {
 .graphic_box:hover{
 	filter: drop-shadow(0 0 8px);
 	color: #3eeaea;
-	transform: scale(1.08);
+	transform: scale(1.15);
 	transition: 250ms;
 }
 .graphic_box:hover:before{
@@ -201,12 +203,42 @@ img {
 
 .storage{
 	width: 250px;
+	overflow: hidden;
+	transition: 200ms;
 }
+.storage:hover{
+	filter: drop-shadow(0 0 8px);
+	color: #3eeaea;
+	transform: scale(1.08);
+	transition: 250ms;
 
+}
+.storage-animation:hover:before{
+	animation: slide-stor 1.4s;
+	content: "";
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.18);
+	height: 30rem;
+	width: 80px;
+	left: -400px;
+	transform: skew(-50deg);
+	top: -10%;
+
+}
+@keyframes slide-stor {
+	0.1% {
+		background-color: rgb(255, 255, 255);
+	}
+	50%{
+		background-color: rgba(255, 255, 255, 0.24);
+	}
+	100%{
+		left: 60rem;
+		top: 30%;
+	}
+}
 .selected{
-	outline: #47b4dc solid 3px;
-	position: static;
-
+	outline: #ea239a solid 3px;
 }
 
 span{
@@ -214,16 +246,55 @@ span{
 }
 
 .case{
-	height: 400px;
+	min-height: 20vh;
+	height: 37vh;
+	width: 18rem;
 	object-fit: cover;
+	transition: 250ms;
+	overflow: hidden;
 }
+.cas-img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.case:hover{
+	filter: drop-shadow(0 0 8px);
+	color: #3eeaea;
+	transform: scale(1.08);
+	transition: 250ms;
+}
+.case-key{
+}
+.case-key:hover:before{
+	animation: slide-case 1.4s;
+	content: "";
+	position: absolute;
+	background-color: rgba(233, 248, 255, 0.64);
+	height: 30rem;
+	width: 80px;
+	left: -400px;
+	transform: skew(-50deg);
+	top: -20%;
+}
+@keyframes slide-case{
+	0.1% {
+		background-color: rgba(233, 248, 255, 0.61);
+	}
+	50%{
 
+	}
+	100%{
+		left: 60rem;
+		top: 50%;
+		background-color: rgba(200, 247, 255, 0.27);
+	}
+}
 .pc_comp_img{
 	width: 450px;
 	height: 450px;
 	object-fit: cover;
 }
-
 .bg-pcblue{
 	background-color: #011a2c;
 }
