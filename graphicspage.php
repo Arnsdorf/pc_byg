@@ -49,21 +49,21 @@ require "settings/init.php";
                     <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-lg-between justify-content-center">
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box graphic_game">
-                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.43.06.png" alt="graphic_game" class="graphic-pic shadow " data-component-class="1">
+                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.43.06.png" alt="graphic_game" class="graphic-pic shadow graphic_game" data-component-class="1">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Lav</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box graphic_game">
-                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.31.49.png" alt="graphic_game" class="graphic-pic shadow " data-component-class="2">
+                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.31.49.png" alt="graphic_game" class="graphic-pic shadow graphic_game" data-component-class="2">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Mellem</span> grafisk ydeevne</h5>
                             </div>
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center graphic_box graphic_game">
-                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.00.32.png" alt="graphic_game" class="graphic-pic shadow" data-component-class="3">
+                            <img src="images/Fortnite Screenshot 2023.05.24 - 18.47.00.32.png" alt="graphic_game" class="graphic-pic shadow graphic_game" data-component-class="3">
                             <div class="position-absolute bottom-0 start-50 translate-middle-x text-center">
                                 <h5 class="text-white mb-3 p-min semi-font graphic_game-ani"><span>Høj</span> grafisk ydeevne</h5>
                             </div>

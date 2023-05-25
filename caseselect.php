@@ -47,11 +47,11 @@ require "settings/init.php";
                     <div class="row row-cols-sm-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-evenly">
 
                         <div class="p-0 mx-sm-2 mt-2 mb-2 d-flex justify-content-center m-0 case-animation case-key case">
-                            <img src="images/hvidt_case.png" alt="hvidt kabinet" class="cas-img" data-id="51">
+                            <img src="images/hvidt_case.png" alt="hvidt kabinet" class="cas-img cabinet" data-id="51">
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-2 mb-2 d-flex justify-content-center m-0 case-animation case-key case">
-                            <img src="images/sort_case.png" alt="sort kabinet" class="cas-img" data-id="50">
+                            <img src="images/sort_case.png" alt="sort kabinet" class="cas-img cabinet" data-id="50">
                         </div>
 
                     </div>

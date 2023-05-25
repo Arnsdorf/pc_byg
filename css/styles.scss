@@ -685,13 +685,8 @@ padding-top: 15rem;
 	font-size: 2rem;
 }
 .card-cool{
-	transition: ease-out 100ms;
+	transition: 100ms;
 
-}
-.card-cool:hover{
-	transform: scale(1.08);
-	transition: ease-in 100ms;
-	background-image: linear-gradient( to right top, rgb(24, 24, 24), #020202);
 }
 //-------Content--------//
 //-------about----------//
