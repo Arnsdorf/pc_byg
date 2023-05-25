@@ -63,7 +63,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center mt-3">
-                        <a class="m-2 p-3 px-4 rounded-3 bg-black text-white text-decoration-none shadow" href="#">Køb nu</a>
+                        <a class="m-2 p-3 px-4 rounded-3 bg-black text-white button-guide text-decoration-none shadow" href="#">Køb nu</a>
                     </div>
                 </div>
             </div>
@@ -92,14 +92,14 @@
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
                             <img src="images/fortnite.png" alt="graphic_game" class="shadow done_game">
                             <div class="position-absolute bottom-50 start-50 translate-middle-x text-center">
-                                <h3 class="text-white p-min fw-bold">FPS 120+</h3>
+                                <h3 class="text-white p-min fw-bold">FPS <br>120 +</h3>
                             </div>
                         </div>
 
                         <div class="p-0 mx-sm-2 mt-5 mt-lg-0 position-relative d-flex justify-content-center">
                             <img src="images/minecraft.png" alt="graphic_game" class="shadow done_game">
                             <div class="position-absolute bottom-50 start-50 translate-middle-x text-center">
-                                <h3 class="text-white p-min fw-bold">FPS 240+</h3>
+                                <h3 class="text-white p-min fw-bold">FPS <br>240 +</h3>
                             </div>
                         </div>
 
@@ -201,6 +201,7 @@
         </div>
     </div>
 </section>
+
 <?php include 'includes/footer.php'?>
 
 <script type="module">
