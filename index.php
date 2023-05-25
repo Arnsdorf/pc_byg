@@ -42,7 +42,7 @@
     <img class="image_front" src="images/gaming-room-designs-blurr.jpg" alt="frontpage">
 
     <!--NAVBAR-->
-    c
+    <?php include 'includes/navbar.php'?>
 
     <!-- Front-text -->
     <div class="frontpage-text position-relative justify-content-center d-flex ">
